@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 1px;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  padding: 220px 10px 80px 10px;
+  width: 60%;
+  text-align: center;
+  margin: auto;
+}
+
+.headerleft {
+  float: left;
+}
+
+.headerright {
+  float: right;
+}
+
+li   {
+  display: inline;
+  padding-left: 30px;
+}
+
+.main {
+  width: 60%;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 0;
+}
+
+.container {
+  background-color: red;
+  width: 33%;
+  padding-top: 33%;
+  margin: 0;
+  display: inline-block;
+  position: relative;
+}
+
+.blue {
+  background-color: blue;
+}
+
+#craater {
+    background: rgba(255,255,255,1);
+    background: -moz-linear-gradient(top, rgba(102,126,234,1) 0%, rgba(44,59,79,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(102,126,234,1) 0%, rgba(44,59,79,1) 100%);
+    background: -o-linear-gradient(top, rgba(102,126,234,1) 0%, rgba(44,59,79,1) 100%);
+    background: -ms-linear-gradient(top, rgba(102,126,234,1) 0%, rgba(44,59,79,1) 100%);
+    background: linear-gradient(to bottom, rgba(102,126,234,1) 0%, rgba(44,59,79,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#2c3b4f', GradientType=0 );
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+}
+
+.container:hover, #craater:hover {
+   opacity: 0;
+}
+
+.square-content{
+    position:  absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    color: white;
+}
+
+.square-content div {
+   display: table;
+   width: 100%;
+   height: 100%;
+}
+
+.square-content h1 {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+}
