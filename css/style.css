@@ -93,9 +93,9 @@ a:hover {
 
 @media (max-width: 1080px) {
   main{
-    width: 100%;
+    width: 85%;
   }
   p {
-    font-size: 1.5em;
+    font-size: 1.2em;
   }
 }
