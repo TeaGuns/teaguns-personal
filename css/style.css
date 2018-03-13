@@ -28,7 +28,7 @@ h1 {
 
 h2, p {
   font-weight: 400;
-  color: #B0BEFF;
+  color: #fff;
   margin: 5px;
   text-align: center;
 }
@@ -39,7 +39,7 @@ h4 {
 
 a {
   text-decoration: none;
-  color: #fff;
+  color: #B0BEFF;
 }
 
 a:hover {
@@ -82,7 +82,7 @@ a:hover {
 
 .correct:before {
   content: attr(pre);
-  color: #fff;
+  color: #B0BEFF;
 }
 
 .correct:hover:before {
