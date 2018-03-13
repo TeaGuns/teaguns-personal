@@ -14,7 +14,7 @@ html {
 }
 
 body {
-  background-color: #4d62c1;
+  background-color: #252846;
   height: 100%;
 }
 
@@ -39,14 +39,24 @@ h4 {
 
 a {
   text-decoration: none;
+  color: #fff;
 }
 
 a:hover {
-  color: #B0BEFF;
+  color: #2ecc71;
+  font-weight: 800;
 }
 
 #working {
+  margin-bottom: 1em;
+}
+
+#skills {
   margin-bottom: 2em;
+}
+
+#available {
+  margin-top: 2em;
 }
 
 .link {
@@ -57,8 +67,8 @@ a:hover {
 
 .main {
   width: 100%;
-  height: 100%;
-  margin-top: -50px;
+  margin-top: 150px;
+  margin-bottom: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -66,29 +76,50 @@ a:hover {
 
 .footer {
   width: 100%;
-  height: 30px;
-  margin-top: -30px;
+  margin-top: 30px;
   text-align: center
-}
-
-.incorrect:before {
-  content: attr(pre);
-}
-
-.incorrect:hover:before {
-  content: attr(data-hover);
-  color: #e74c3c;
-  font-weight: 800;
 }
 
 .correct:before {
   content: attr(pre);
+  color: #fff;
 }
 
 .correct:hover:before {
   content: attr(data-hover);
   color: #2ecc71;
   font-weight: 800;
+}
+
+.container {
+  margin: auto;
+  max-width: 1200px;
+}
+
+.responsive-image {
+  max-width: 100%;
+}
+
+.cell img {
+  display: block;
+}
+
+
+@media screen and (min-width: 600px) {
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .cell {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .cell {
+    width: calc(100% / 3);
+  }
 }
 
 @media (max-width: 1080px) {
