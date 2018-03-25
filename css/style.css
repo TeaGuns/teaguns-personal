@@ -64,6 +64,12 @@ a:hover {
   padding-bottom: 15px;
 }
 
+
+#hireme p {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
 .link {
   color: white;
   font-size: 2em;
