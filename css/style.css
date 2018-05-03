@@ -45,6 +45,7 @@ a:hover {
 h1 {
   font-weight: 300;
   padding: 10px;
+  font-size: 1.5em;
 }
 
 h2 {
@@ -138,6 +139,9 @@ h3 {
     justify-content: center;
     height: 90vh;
     padding: 0;
+  }
+  h1 {
+    font-size: 2em;
   }
 }
 
