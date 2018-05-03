@@ -137,6 +137,7 @@ h3 {
     align-items: center;
     justify-content: center;
     height: 90vh;
+    padding: 0;
   }
 }
 
