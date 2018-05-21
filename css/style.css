@@ -69,7 +69,6 @@ h3 {
   align-items: center;
   justify-content: center;
   text-align: center;
-  height: 50vh;
 }
 
 .responsive-image {
@@ -79,6 +78,7 @@ h3 {
 #header {
   margin: auto;
   max-width: 800px;
+  padding-top: 100px;
 }
 
 #header p {
@@ -96,7 +96,7 @@ h3 {
 }
 
 #images img {
-  max-width: 1000px;
+  max-width: 100%;
   padding: 10px;
 }
 
@@ -111,7 +111,7 @@ h3 {
 }
 
 .container3 {
-  max-width: 960px;
+  max-width: 100%;
   margin: 0 auto;
 }
 
@@ -143,9 +143,18 @@ h3 {
     width: 50%;
   }
 
+  #header {
+    padding-top: 0px;
+  }
+
   #social a {
     margin: 1em;
     font-size: 1em;
+  }
+
+  #images img {
+    max-width: 1000px;
+    padding: 10px;
   }
 
   .container {
@@ -154,10 +163,11 @@ h3 {
     justify-content: center;
     height: 80vh;
   }
+
   h1 {
     font-size: 2em;
   }
-  /* Pen-specific styles */
+
   section {
     max-width: 1000px;
   }
@@ -167,6 +177,11 @@ h3 {
     align-items: center;
     justify-content: space-between;
     text-align: center;
+  }
+
+  .container3 {
+    max-width: 960px;
+    margin: 0 auto;
   }
 
   .left-half {
