@@ -1,0 +1,76 @@
+@import 'rong-base';
+@import 'rong-grid';
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+* {
+  box-sizing: border-box;
+  margin: auto;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1em;
+  letter-spacing: 0.2em;
+  line-height: 300%;
+}
+
+body {
+  background-color: #fff;
+  color: #454545;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+h2 {
+  font-weight: 400;
+}
+
+p {
+  letter-spacing: .1em;
+  line-height: 150%;
+}
+
+a {
+  background-image: linear-gradient(to right, #fff 50%, rgba(104,129,231,0.7) 50%);
+  background-position: -0% 0;
+  background-size: 200% auto;
+  font-weight: 700;
+  color: #454545;
+  text-decoration: none;
+  transition: background-position   0.5s ease-out;
+}
+
+a:hover {
+  background-position: -99.99% 0%;
+  color: #fff;
+}
+
+img {
+  width: 100%;
+}
+
+.header {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+    #emoji {
+    font-size: 3em;
+  }
+}
+
+.currently {
+  margin: 2em 0;
+}
+
+.social {
+  margin-right: 1em;
+}
+
+.work {
+  margin-bottom: 8em;
+}
