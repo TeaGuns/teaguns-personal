@@ -162,6 +162,9 @@ a:hover {
   background-position: -99.99% 0%;
   color: #fff; }
 
+img {
+  max-width: 100%; }
+
 .header {
   height: 90vh;
   display: flex;
