@@ -182,4 +182,12 @@ img {
 .work {
   margin-bottom: 8em; }
 
+@media screen and (max-width: 600px) {
+  .header {
+    height: auto;
+    margin-top: 5em; }
+
+  .title {
+    text-align: left; } }
+
 /*# sourceMappingURL=main.css.map */
