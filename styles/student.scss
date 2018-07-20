@@ -1,0 +1,36 @@
+@import 'rong-base';
+@import 'rong-grid';
+/*@import url('https://fonts.googleapis.com/css?family=Work+Sans:500,700');*/
+
+* {
+    box-sizing: border-box;
+    margin: auto;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+    font-family: "Arvo", serif;
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    line-height: 150%;
+    color: #333333;
+}
+
+h2 {
+    line-height: 250%;
+}
+
+p {
+    color: #666666;
+    font-family: "Lato", sans-serif;
+}
+
+.container {
+    padding: 3em 0;
+}
+
+img {
+    width: 100%;
+}
+
