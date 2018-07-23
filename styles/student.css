@@ -141,7 +141,8 @@ h2 {
 
 p {
   color: #555555;
-  font-family: "Lato", sans-serif; }
+  font-family: "Lato", sans-serif;
+  margin-bottom: 1em; }
 
 .container {
   padding: 3em 0; }
@@ -155,7 +156,6 @@ img {
 
 .sub {
   font-size: 0.8em;
-  margin-bottom: 1.5em;
   font-style: italic; }
 
 /*# sourceMappingURL=student.css.map */
