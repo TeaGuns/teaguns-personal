@@ -1,6 +1,7 @@
 /* VARIABLES */
 /* MIXINS */
 /* BASIC */
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
 html,
 body {
   height: 100%;
@@ -122,7 +123,6 @@ body {
   display: table;
   clear: both; }
 
-/*@import url('https://fonts.googleapis.com/css?family=Work+Sans:500,700');*/
 * {
   box-sizing: border-box;
   margin: auto; }
@@ -130,7 +130,7 @@ body {
 html {
   height: 100%;
   width: 100%;
-  font-family: "Arvo", serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 1em;
   letter-spacing: 0.05em;
   line-height: 150%;
@@ -144,12 +144,24 @@ p {
   font-family: "Lato", sans-serif;
   margin-bottom: 1em; }
 
+a {
+  background-image: linear-gradient(to right, #fff 50%, rgba(104, 129, 231, 0.7) 50%);
+  background-position: -0% 0;
+  background-size: 200% auto;
+  font-weight: 700;
+  color: #454545;
+  text-decoration: none;
+  transition: background-position   0.5s ease-out; }
+
 .container {
   padding: 3em 0; }
 
 img {
   width: 100%;
   margin: 4em 0 1em 0; }
+
+.headerimg {
+  margin: 0 0 1em 0; }
 
 .single {
   max-width: 80%; }

@@ -10,6 +10,14 @@
 
       gtag('config', 'UA-118649609-1');
     </script>
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+    <script>
+      window.sr = ScrollReveal();
+    </script>
+    <style>
+          /* Ensure elements load hidden before ScrollReveal runs */
+          .row { visibility: hidden; }
+    </style>
     <link rel="stylesheet" type="text/css" href="styles/main.css">
     <script src="https://use.fontawesome.com/9a74a8eb7d.js"></script>
     <title>Mac Reddin</title>
@@ -31,14 +39,14 @@
         </div>
         <div class="row currently">
           <div class="col-8 currently">
-            <h5>CURRENTLY</h5>
+            <h4>CURRENTLY</h4>
             <h2>🎮 <a target="_blank" href="https://www.craater.com/">Craater</a></h2>
             <h2>💸 <a href="mailto:m@credd.in">Available For Work</a></h2>
           </div>
         </div>
         <div class="row currently">
           <div class="col-8 currently">
-            <h5>PROJECTS</h5>
+            <h4>PROJECTS</h4>
             <h2>🏗️ <a target="_blank" href="https://github.com/TeaGuns/rong">Rong Framework</a></h2>
           </div>
         </div>
@@ -57,7 +65,7 @@
           <h2>Craater</h2>
         </div>
         <div class="col-6 title right">
-          <h5>Co-Founder</h5>
+          <h4>Co-Founder</h4>
         </div>
       </div>
       <div class="row">
@@ -75,35 +83,35 @@
       </div>
       <div class="row">
         <div class="col-12">
-          <h5>Full Project Page Coming Soon</h5>
+          <h4>Full Project Page Coming Soon</h4>
         </div>
       </div>
     </div>
     <div class="container work">
       <div class="row">
         <div class="col-6">
-          <h2>Hocus Timer</h2>
+          <h2>Student Faces</h2>
         </div>
         <div class="col-6 title right">
-          <h5>Product Lead</h5>
+          <h4>Product Designer</h4>
         </div>
       </div>
       <div class="row">
         <div class="col-12">
-            <img src="images/portfolio-hocus.png"/>
+            <img src="images/portfolio-studentfaces.png"/>
         </div>
       </div>
       <div class="row">
         <div class="col-6">
-          <p>Hocus Timer is a small time tracking app designed to provide more in depth features for freelancers to spend less time tracking and more time working.</p>
+          <p>Student Faces helps teachers more quickly learn student's names and faces at the start of a new semester or school year.</p>
         </div>
         <div class="col-6">
-          <p>The project was initially an excercise in front-end developement and converting my designs into usable production code.</p>
+          <p>This project was a mock project designed to provide experience in research before delving into design work.</p>
         </div>
       </div>
       <div class="row">
         <div class="col-12">
-          <h5>Full Project Page Coming Soon</h5>
+          <h4><a href="student-faces.html">Full Case Study</a></h4>
         </div>
       </div>
     </div>
@@ -113,7 +121,7 @@
           <h2>CubedPay</h2>
         </div>
         <div class="col-6 title right">
-          <h5>Product Designer</h5>
+          <h4>Product Designer</h4>
         </div>
       </div>
       <div class="row">
@@ -131,7 +139,35 @@
       </div>
       <div class="row">
         <div class="col-12">
-          <h5>Full Project Page Coming Soon</h5>
+          <h4>Full Project Page Coming Soon</h4>
+        </div>
+      </div>
+    </div>
+    <div class="container work">
+      <div class="row">
+        <div class="col-6">
+          <h2>Hocus Timer</h2>
+        </div>
+        <div class="col-6 title right">
+          <h4>Product Lead</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+            <img src="images/portfolio-hocus.png"/>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6">
+          <p>Hocus Timer is a small time tracking app designed to provide more in depth features for freelancers to spend less time tracking and more time working.</p>
+        </div>
+        <div class="col-6">
+          <p>The project was initially an excercise in front-end developement and converting my designs into usable production code.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <h4>Full Project Page Coming Soon</h4>
         </div>
       </div>
     </div>
@@ -147,5 +183,10 @@
         </div>
       </div>
     </div>
+
+        <!-- make reveal calls last -->
+        <script>
+          sr.reveal('.row');
+        </script>
   </body>
 </html>
