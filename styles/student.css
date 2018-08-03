@@ -153,6 +153,10 @@ a {
   text-decoration: none;
   transition: background-position   0.5s ease-out; }
 
+a:hover {
+  background-position: -99.99% 0%;
+  color: #fff; }
+
 .container {
   padding: 3em 0; }
 
