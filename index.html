@@ -6,14 +6,14 @@
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());I
-
+      gtag('js', new Date());
       gtag('config', 'UA-118649609-1');
     </script>
     <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
     <script>
       window.sr = ScrollReveal();
     </script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
     <style>
           /* Ensure elements load hidden before ScrollReveal runs */
           .row { visibility: hidden; }
@@ -26,14 +26,16 @@
   </head>
   <body>
     <div class="container header">
+      <!--<img id="me" width="100px" src="images/me.jpg">
+      <div id="arrow" class="arrow-left"></div>-->
       <div>
         <div class="row">
-          <div class="col-8">
-              <h1 id="emoji">👋</h1>
+          <div class="col-dyn-content">
+            <h1 id="emoji">👋</h1>
           </div>
         </div>
         <div class="row">
-          <div class="col-8">
+          <div class="col-9">
             <h1>I'm Mac, a NYC based product designer and entrepreneur.</h1>
           </div>
         </div>
@@ -53,9 +55,11 @@
         </div>-->
         <div class="row">
           <div class="col-12">
-            <a class="social" target="_blank" href="https://twitter.com/TheTeaGuns">TWITTER</a>
-            <a class="social" target="_blank" href="https://dribbble.com/TheTeaGuns">DRIBBBLE</a>
-            <a class="social" target="_blank" href="mailto:m@credd.in">EMAIL ME</a>
+            <div>
+                <a class="social" target="_blank" href="https://twitter.com/TheTeaGuns">TWITTER</a>
+                <a class="social" target="_blank" href="https://dribbble.com/TheTeaGuns">DRIBBBLE</a>
+                <a class="social" target="_blank" href="mailto:m@credd.in">EMAIL ME</a>
+            </div>
           </div>
         </div>
       </div>
@@ -207,15 +211,21 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-6">
+        <div id="speechSection" onclick="toggleBubble()" class="col-6">
           <h2>👉 <a target="_blank" href="mailto:m@credd.in">Lets Work Together</a></h2>
         </div>
       </div>
     </div>
-
         <!-- make reveal calls last -->
         <script>
           sr.reveal('.row');
         </script>
+
+    <script>
+      function toggleBubble() {
+        var element = document.getElementById("speechSection");
+        element.classList.toggle("speech-bubble");
+      }
+    </script>
   </body>
 </html>
