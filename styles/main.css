@@ -275,10 +275,13 @@ a.inSpeech {
   margin-right: 1em; }
 
 .work {
-  margin-bottom: 8em; }
+  margin-bottom: 8em;
+  overflow: auto; }
 
-#extraHeight {
-  height: 1000px; }
+#tr-footer {
+  height: 8em;
+  width: 100%;
+  background: transparent; }
 
 @media screen and (max-width: 600px) {
   .header {
