@@ -249,12 +249,12 @@ a.inSpeech {
   border-right: 18px solid #efefef; }
 
 .header {
-  height: 90vh;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: flex-start;
-  text-align: left; }
+  text-align: left;
+  margin-top: 162px; }
 
 .emoji {
   font-size: 3em; }
