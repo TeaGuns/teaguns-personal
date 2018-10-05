@@ -177,7 +177,11 @@ a {
   font-weight: 700;
   color: #454545;
   text-decoration: none;
-  transition: background-position   0.5s ease-out; }
+  transition: background-position   0.5s ease-out;
+  -webkit-transition: background-image 0.3s ease;
+  -moz-transition: background-image 0.3s ease;
+  -o-transition: background-image 0.3s ease;
+  transition: background-image 0.3s ease; }
 
 a:hover {
   background-position: -99.99% 0%;
