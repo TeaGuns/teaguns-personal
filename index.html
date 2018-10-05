@@ -14,6 +14,7 @@
       window.sr = ScrollReveal();
     </script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+    <!--<script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>-->
     <style>
           /* Ensure elements load hidden before ScrollReveal runs */
           .row { visibility: hidden; }
@@ -26,25 +27,25 @@
   </head>
   <body>
     <div class="container header">
-      <!--<img id="me" width="100px" src="images/me.jpg">
-      <div id="arrow" class="arrow-left"></div>-->
+      <img id="me" class="me" width="100px" src="images/me.jpg">
+      <div id="arrow"></div>
       <div>
         <div class="row">
-          <div class="col-dyn-content">
-            <h1 id="emoji">👋</h1>
+          <div class="col-dyn-content" id="sec1">
+            <h1 id="bubble1" class="emoji speechBubble">👋</h1>
           </div>
         </div>
         <div class="row">
-          <div class="col-9">
-            <h1>I'm Mac, a NYC based product designer and entrepreneur.</h1>
+          <div class="col-9" id="sec2">
+              <h1 id="bubble2" class="speechBubble">Hello, I'm Mac and I'm a product designer and entrepreneur.</h1>
           </div>
         </div>
-        <div class="row currently">
-          <div class="col-8 currently">
+        <div class="row" id="sec3">
+          <div class="col-9 currently speechBubble" id="bubble3">
             <h4>CURRENTLY</h4>
-            <h2>🏫 <a target="_blank" href="https://www.concourse.global/">Concourse Global</a></h2>
-            <h2>🎮 <a target="_blank" href="https://www.craater.com/">Craater</a></h2>
-            <h2>💸 <a href="mailto:m@credd.in">Available For Work</a></h2>
+            <h2>🏫 <a id="currentLink" target="_blank" href="https://www.concourse.global/">Concourse Global</a></h2>
+            <h2>🎮 <a id="currentLink" target="_blank" href="https://www.craater.com/">Craater</a></h2>
+            <h2>💸 <a id="currentLink" href="mailto:m@credd.in">Available For Work</a></h2>
           </div>
         </div>
         <!--<div class="row currently">
@@ -53,14 +54,13 @@
             <h2>🏗️ <a target="_blank" href="https://github.com/TeaGuns/rong">Rong Framework</a></h2>
           </div>
         </div>-->
-        <div class="row">
-          <div class="col-12">
-            <div>
-                <a class="social" target="_blank" href="https://twitter.com/TheTeaGuns">TWITTER</a>
-                <a class="social" target="_blank" href="https://dribbble.com/TheTeaGuns">DRIBBBLE</a>
-                <a class="social" target="_blank" href="mailto:m@credd.in">EMAIL ME</a>
-            </div>
+        <div class="row" id="sec4">
+          <div class="col-9 speechBubble socialLinks" id="bubble4">
+                <a id="socialLink" class="social" target="_blank" href="https://twitter.com/TheTeaGuns">TWITTER</a>
+                <a id="socialLink" class="social" target="_blank" href="https://dribbble.com/TheTeaGuns">DRIBBBLE</a>
+                <a id="socialLink" class="social" target="_blank" href="mailto:m@credd.in">EMAIL ME</a>
           </div>
+          <div id="sec5"></div>
         </div>
       </div>
     </div>
@@ -186,7 +186,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-12">
+        <div class="col-12" id="sec6">
             <img src="images/portfolio-hocus.png"/>
         </div>
       </div>
@@ -205,14 +205,12 @@
       </div>
     </div>
     <div class="container work">
+        <img id="me2" class="me2" width="100px" src="images/me.jpg">
+        <div id="arrowBottom"></div>
       <div class="row">
-        <div class="col-8">
-          <h2>✌️ <a target="_blank" href="https://dribbble.com/TheTeaGuns">View More Work</a></h2>
-        </div>
-      </div>
-      <div class="row">
-        <div id="speechSection" onclick="toggleBubble()" class="col-6">
-          <h2>👉 <a target="_blank" href="mailto:m@credd.in">Lets Work Together</a></h2>
+        <div class="col-8 speechBubble" id="bubble5">
+          <h2>✌️ <a id="bottomLink" target="_blank" href="https://dribbble.com/TheTeaGuns">View More Work</a></h2>
+          <h2>👉 <a id="bottomLink" target="_blank" href="mailto:m@credd.in">Lets Work Together</a></h2>
         </div>
       </div>
     </div>
@@ -220,12 +218,57 @@
         <script>
           sr.reveal('.row');
         </script>
-
     <script>
-      function toggleBubble() {
-        var element = document.getElementById("speechSection");
-        element.classList.toggle("speech-bubble");
-      }
+      // init controller
+      var controller = new ScrollMagic.Controller({globalSceneOptions: {triggerHook: 0}});
+
+      // build scenes
+      new ScrollMagic.Scene({triggerElement: "#sec1", duration: 30, offset: -205})
+              .setClassToggle("#bubble1", "transition") // add class toggle
+              .addTo(controller);
+      new ScrollMagic.Scene({triggerElement: "#sec1", duration: 30, offset: -205})
+              .setClassToggle("#arrow", "arrowVisible") // add class toggle
+              .addTo(controller);
+      new ScrollMagic.Scene({triggerElement: "#sec2", duration: 65, offset: -205})
+              .setClassToggle("#bubble2", "transition") // add class toggle
+              .addTo(controller);
+      new ScrollMagic.Scene({triggerElement: "#sec2", duration: 65, offset: -205})
+              .setClassToggle("#arrow", "arrowVisible") // add class toggle
+              .addTo(controller);
+      new ScrollMagic.Scene({triggerElement: "#sec3", duration: 170, offset: -205})
+              .setClassToggle("#bubble3", "transition") // add class toggle
+              .addTo(controller);
+      new ScrollMagic.Scene({triggerElement: "#sec3", duration: 170, offset: -205})
+              .setClassToggle("#arrow", "arrowVisible") // add class toggle
+              .addTo(controller);
+      new ScrollMagic.Scene({triggerElement: "#sec3", duration: 170, offset: -205})
+              .setClassToggle("#currentLink", "inSpeech") // add class toggle
+              .addTo(controller);
+      new ScrollMagic.Scene({triggerElement: "#sec4", duration: 25, offset: -205})
+              .setClassToggle("#bubble4", "transition") // add class toggle
+              .addTo(controller);
+      new ScrollMagic.Scene({triggerElement: "#sec4", duration: 25, offset: -205})
+              .setClassToggle("#arrow", "arrowVisible") // add class toggle
+              .addTo(controller);
+      new ScrollMagic.Scene({triggerElement: "#sec4", duration: 25, offset: -205})
+              .setClassToggle("#socialLink", "inSpeech") // add class toggle
+              .addTo(controller);
+      new ScrollMagic.Scene({triggerElement: "#sec5", offset: -205})
+              .setClassToggle("#me", "hidden") // add class toggle
+              .addTo(controller);
+      new ScrollMagic.Scene({triggerElement: "#sec6", offset: -50})
+              .setClassToggle("#bubble5", "transition") // add class toggle
+              .addIndicators()
+              .addTo(controller);
+      new ScrollMagic.Scene({triggerElement: "#sec6", offset: -50})
+              .setClassToggle("#me2", "meVisible") // add class toggle
+              .addTo(controller);
+      new ScrollMagic.Scene({triggerElement: "#sec6", offset: -50})
+              .setClassToggle("#arrowBottom", "arrowVisible") // add class toggle
+              .addTo(controller);
+      new ScrollMagic.Scene({triggerElement: "#sec6", offset: -50})
+              .setClassToggle("#bottomLink", "inSpeech") // add class toggle
+              .addTo(controller);
     </script>
   </body>
 </html>

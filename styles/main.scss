@@ -23,10 +23,18 @@ body {
 
 h1 {
   font-weight: 700;
+  padding: 0.25em 0.5em;
 }
 
 h2 {
   font-weight: 400;
+  padding: 0em 0.5em;
+
+}
+
+h4 {
+  padding: 0em 0.5em;
+  margin: 0;
 }
 
 p {
@@ -54,39 +62,79 @@ a:hover {
   color: #fff;
 }
 
-#me {
+a.inSpeech {
+  background-image: linear-gradient(to right, #efefef 50%, rgba(104,129,231,0.7) 50%);
+}
+
+.me {
   border-radius: 500px;
   max-width: 100%;
   position: fixed;
   margin-left: -120px;
-  margin-top: -230px;
+  margin-top: -210px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 
-.speech-bubble {
+.me.hidden {
+  opacity: 0;
+}
+
+.me2 {
+  border-radius: 500px;
+  max-width: 100%;
+  position: absolute;
+  margin-left: -120px;
+  margin-top: 25px;
+  opacity: 0;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.me2.meVisible {
+  opacity: 1;
+}
+
+.speechBubble {
 	position: relative;
-	background: #efefef;
   border-radius: .4em;
   padding: 0.25em 0.5em;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 
-.testclass {
-  border: 5px red solid;
+.speechBubble.transition {
+  background: #efefef;
 }
 
-.arrow-left {
-  display: hidden;
+#arrow {
   position: fixed;
   width: 0; 
   height: 0; 
   border-top: 8px solid transparent;
-  border-bottom: 8px solid transparent; 
-  border-right:18px solid #efefef; 
+  border-bottom: 8px solid transparent;
   margin-left: -8px;
-  margin-top: -230px;
+  margin-top: -210px;
 }
 
-.arrow-visible {
-  display: inline;
+#arrowBottom {
+  position: relative;
+  width: 0; 
+  height: 0; 
+  margin-left: -8px;
+  top: 65px;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+}
+
+.arrowVisible {
+  border-right: 18px solid #efefef; 
 }
 
 .header {
@@ -96,13 +144,19 @@ a:hover {
   flex-direction: column;
   align-items: flex-start;
   text-align: left;
-    #emoji {
-    font-size: 3em;
-  }
+}
+
+.emoji {
+  font-size: 3em;
 }
 
 .currently {
-  margin: 2em 0;
+  margin: 4em 0;
+  padding: 0.25em 0.5em;
+}
+
+.socialLinks {
+  padding: 0.25em 1em;
 }
 
 .social {
@@ -111,6 +165,10 @@ a:hover {
 
 .work {
   margin-bottom: 8em;
+}
+
+#extraHeight {
+  height: 1000px;
 }
 
 @media screen and (max-width: 600px){
