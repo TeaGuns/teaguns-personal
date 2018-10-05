@@ -43,9 +43,9 @@
         <div class="row" id="sec3">
           <div class="col-9 currently speechBubble" id="bubble3">
             <h4>CURRENTLY</h4>
-            <h2>🏫 <a target="_blank" href="https://www.concourse.global/">Concourse Global</a></h2>
-            <h2>🎮 <a target="_blank" href="https://www.craater.com/">Craater</a></h2>
-            <h2>💸 <a href="mailto:m@credd.in">Available For Work</a></h2>
+            <h2>🏫 <a id="currentLink" target="_blank" href="https://www.concourse.global/">Concourse Global</a></h2>
+            <h2>🎮 <a id="currentLink" target="_blank" href="https://www.craater.com/">Craater</a></h2>
+            <h2>💸 <a id="currentLink" href="mailto:m@credd.in">Available For Work</a></h2>
           </div>
         </div>
         <!--<div class="row currently">
@@ -56,9 +56,9 @@
         </div>-->
         <div class="row" id="sec4">
           <div class="col-9 speechBubble socialLinks" id="bubble4">
-                <a class="social" target="_blank" href="https://twitter.com/TheTeaGuns">TWITTER</a>
-                <a class="social" target="_blank" href="https://dribbble.com/TheTeaGuns">DRIBBBLE</a>
-                <a class="social" target="_blank" href="mailto:m@credd.in">EMAIL ME</a>
+                <a id="socialLink" class="social" target="_blank" href="https://twitter.com/TheTeaGuns">TWITTER</a>
+                <a id="socialLink" class="social" target="_blank" href="https://dribbble.com/TheTeaGuns">DRIBBBLE</a>
+                <a id="socialLink" class="social" target="_blank" href="mailto:m@credd.in">EMAIL ME</a>
           </div>
           <div id="sec5"></div>
         </div>
@@ -241,11 +241,17 @@
       new ScrollMagic.Scene({triggerElement: "#sec3", duration: 170, offset: -205})
               .setClassToggle("#arrow", "arrowVisible") // add class toggle
               .addTo(controller);
+      new ScrollMagic.Scene({triggerElement: "#sec3", duration: 170, offset: -205})
+              .setClassToggle("#currentLink", "inSpeech") // add class toggle
+              .addTo(controller);
       new ScrollMagic.Scene({triggerElement: "#sec4", duration: 25, offset: -205})
               .setClassToggle("#bubble4", "transition") // add class toggle
               .addTo(controller);
       new ScrollMagic.Scene({triggerElement: "#sec4", duration: 25, offset: -205})
               .setClassToggle("#arrow", "arrowVisible") // add class toggle
+              .addTo(controller);
+      new ScrollMagic.Scene({triggerElement: "#sec4", duration: 25, offset: -205})
+              .setClassToggle("#socialLink", "inSpeech") // add class toggle
               .addTo(controller);
       new ScrollMagic.Scene({triggerElement: "#sec5", offset: -205})
               .setClassToggle("#me", "hidden") // add class toggle
