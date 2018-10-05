@@ -13,7 +13,7 @@
     <script>
       window.sr = ScrollReveal();
     </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+    <script src="scripts/minified/ScrollMagic.min.js"></script>
     <!--<script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>-->
     <style>
           /* Ensure elements load hidden before ScrollReveal runs */
@@ -223,42 +223,41 @@
       var controller = new ScrollMagic.Controller({globalSceneOptions: {triggerHook: 0}});
 
       // build scenes
-      new ScrollMagic.Scene({triggerElement: "#sec1", duration: 30, offset: -205})
+      new ScrollMagic.Scene({triggerElement: "#sec1", duration: 30, offset: -185})
               .setClassToggle("#bubble1", "transition") // add class toggle
               .addTo(controller);
-      new ScrollMagic.Scene({triggerElement: "#sec1", duration: 30, offset: -205})
+      new ScrollMagic.Scene({triggerElement: "#sec1", duration: 30, offset: -185})
               .setClassToggle("#arrow", "arrowVisible") // add class toggle
               .addTo(controller);
-      new ScrollMagic.Scene({triggerElement: "#sec2", duration: 65, offset: -205})
+      new ScrollMagic.Scene({triggerElement: "#sec2", duration: 65, offset: -185})
               .setClassToggle("#bubble2", "transition") // add class toggle
               .addTo(controller);
-      new ScrollMagic.Scene({triggerElement: "#sec2", duration: 65, offset: -205})
+      new ScrollMagic.Scene({triggerElement: "#sec2", duration: 65, offset: -185})
               .setClassToggle("#arrow", "arrowVisible") // add class toggle
               .addTo(controller);
-      new ScrollMagic.Scene({triggerElement: "#sec3", duration: 170, offset: -205})
+      new ScrollMagic.Scene({triggerElement: "#sec3", duration: 170, offset: -185})
               .setClassToggle("#bubble3", "transition") // add class toggle
               .addTo(controller);
-      new ScrollMagic.Scene({triggerElement: "#sec3", duration: 170, offset: -205})
+      new ScrollMagic.Scene({triggerElement: "#sec3", duration: 170, offset: -185})
               .setClassToggle("#arrow", "arrowVisible") // add class toggle
               .addTo(controller);
-      new ScrollMagic.Scene({triggerElement: "#sec3", duration: 170, offset: -205})
+      new ScrollMagic.Scene({triggerElement: "#sec3", duration: 170, offset: -185})
               .setClassToggle("#currentLink", "inSpeech") // add class toggle
               .addTo(controller);
-      new ScrollMagic.Scene({triggerElement: "#sec4", duration: 25, offset: -205})
+      new ScrollMagic.Scene({triggerElement: "#sec4", duration: 25, offset: -185})
               .setClassToggle("#bubble4", "transition") // add class toggle
               .addTo(controller);
-      new ScrollMagic.Scene({triggerElement: "#sec4", duration: 25, offset: -205})
+      new ScrollMagic.Scene({triggerElement: "#sec4", duration: 25, offset: -185})
               .setClassToggle("#arrow", "arrowVisible") // add class toggle
               .addTo(controller);
-      new ScrollMagic.Scene({triggerElement: "#sec4", duration: 25, offset: -205})
+      new ScrollMagic.Scene({triggerElement: "#sec4", duration: 25, offset: -185})
               .setClassToggle("#socialLink", "inSpeech") // add class toggle
               .addTo(controller);
-      new ScrollMagic.Scene({triggerElement: "#sec5", offset: -205})
+      new ScrollMagic.Scene({triggerElement: "#sec5", offset: -185})
               .setClassToggle("#me", "hidden") // add class toggle
               .addTo(controller);
       new ScrollMagic.Scene({triggerElement: "#sec6", offset: -50})
               .setClassToggle("#bubble5", "transition") // add class toggle
-              .addIndicators()
               .addTo(controller);
       new ScrollMagic.Scene({triggerElement: "#sec6", offset: -50})
               .setClassToggle("#me2", "meVisible") // add class toggle
