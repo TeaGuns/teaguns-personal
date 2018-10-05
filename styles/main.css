@@ -259,7 +259,8 @@ a.inSpeech {
   flex-direction: column;
   align-items: flex-start;
   text-align: left;
-  margin-top: 162px; }
+  margin-top: 162px;
+  margin-bottom: 162px; }
 
 .emoji {
   font-size: 3em; }
