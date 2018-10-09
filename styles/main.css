@@ -222,7 +222,7 @@ a.inSpeech {
 
 .speechBubble {
   position: relative;
-  border-radius: .4em;
+  border-radius: 12px;
   padding: 0.25em 0.5em;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
