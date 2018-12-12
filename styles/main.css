@@ -206,6 +206,10 @@ a:hover {
   width: 100%;
   background: transparent; }
 
+#workTogether {
+  color: #454545;
+  padding-bottom: 1em; }
+
 @media screen and (max-width: 600px) {
   .header {
     height: auto;
