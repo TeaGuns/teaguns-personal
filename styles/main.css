@@ -196,8 +196,8 @@ a:hover {
   margin-bottom: 8em;
   overflow: auto; }
   .work .project {
-    display: flex;
-    align-items: flex-start; }
+    /*display: flex;
+    align-items: flex-start;*/ }
     .work .project .projectInfo h4, .work .project .projectInfo p {
       padding-bottom: 1em; }
 
