@@ -1,7 +1,8 @@
 /* VARIABLES */
 /* MIXINS */
 /* BASIC */
-@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700");
+@import url("https://fonts.googleapis.com/css?family=Poppins:800");
 * {
   margin: 0;
   padding: 0; }
@@ -141,117 +142,40 @@ body {
 html {
   height: 100%;
   width: 100%;
-  font-family: "Montserrat", sans-serif;
-  font-size: 1em;
-  letter-spacing: 0.2em;
-  line-height: 300%; }
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600; }
 
 body {
   background-color: #fff;
   color: #454545; }
 
 h1 {
-  font-weight: 700;
-  padding: 0.25em 0.5em; }
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-size: 3em; }
 
 h2 {
-  font-weight: 400;
-  padding: 0em 0.5em; }
+  font-weight: 700;
+  color: #BFC3C5;
+  padding-bottom: 0.8em; }
 
 h4 {
-  padding: 0em 0.5em;
-  margin: 0; }
+  color: #BFC3C5; }
 
 p {
-  letter-spacing: .1em;
   line-height: 150%;
-  font-family: "Lato", sans-serif; }
+  letter-spacing: 0.06em; }
 
 img {
   max-width: 100%; }
 
 a {
-  background-image: linear-gradient(to right, #fff 50%, rgba(104, 129, 231, 0.7) 50%);
-  background-position: -0% 0;
-  background-size: 200% auto;
   font-weight: 700;
-  color: #454545;
-  text-decoration: none;
-  transition: background-position   0.5s ease-out;
-  -webkit-transition: background-image 0.3s ease;
-  -moz-transition: background-image 0.3s ease;
-  -o-transition: background-image 0.3s ease;
-  transition: background-image 0.3s ease; }
+  color: #6D7CED;
+  text-decoration: none; }
 
 a:hover {
-  background-position: -99.99% 0%;
-  color: #fff; }
-
-a.inSpeech {
-  background-image: linear-gradient(to right, #efefef 50%, rgba(104, 129, 231, 0.7) 50%); }
-
-.me {
-  border-radius: 500px;
-  max-width: 100%;
-  position: fixed;
-  margin-left: -120px;
-  margin-top: -210px;
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-  overflow: hidden; }
-
-.me.hidden {
-  opacity: 0; }
-
-.me2 {
-  border-radius: 500px;
-  max-width: 100%;
-  position: absolute;
-  margin-left: -120px;
-  margin-top: 25px;
-  opacity: 0;
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all 0.3s ease; }
-
-.me2.meVisible {
-  opacity: 1; }
-
-.speechBubble {
-  position: relative;
-  border-radius: 12px;
-  padding: 0.25em 0.5em;
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all 0.3s ease; }
-
-.speechBubble.transition {
-  background: #efefef; }
-
-#arrow {
-  position: fixed;
-  width: 0;
-  height: 0;
-  border-top: 8px solid transparent;
-  border-bottom: 8px solid transparent;
-  margin-left: -8px;
-  margin-top: -210px; }
-
-#arrowBottom {
-  position: relative;
-  width: 0;
-  height: 0;
-  margin-left: -8px;
-  top: 65px;
-  border-top: 8px solid transparent;
-  border-bottom: 8px solid transparent; }
-
-.arrowVisible {
-  border-right: 18px solid #efefef; }
+  text-decoration: underline; }
 
 .header {
   display: flex;
@@ -260,29 +184,31 @@ a.inSpeech {
   align-items: flex-start;
   text-align: left;
   margin-top: 162px;
-  margin-bottom: 162px; }
+  margin-bottom: 81px; }
 
-.emoji {
-  font-size: 3em; }
-
-.currently {
-  margin: 4em 0;
-  padding: 0.25em 0.5em; }
-
-.socialLinks {
-  padding: 0.25em 1em; }
-
-.social {
-  margin-right: 1em; }
+.divider {
+  margin-bottom: 81px;
+  color: #BFC3C5; }
+  .divider hr {
+    border-top: #BFC3C5; }
 
 .work {
   margin-bottom: 8em;
   overflow: auto; }
+  .work .project {
+    display: flex;
+    align-items: flex-start; }
+    .work .project .projectInfo h4, .work .project .projectInfo p {
+      padding-bottom: 1em; }
 
 #tr-footer {
   height: 8em;
   width: 100%;
   background: transparent; }
+
+#workTogether {
+  color: #454545;
+  padding-bottom: 1em; }
 
 @media screen and (max-width: 600px) {
   .header {
