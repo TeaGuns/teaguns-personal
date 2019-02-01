@@ -2,6 +2,10 @@
 /* MIXINS */
 /* BASIC */
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
+* {
+  margin: 0;
+  padding: 0; }
+
 html,
 body {
   height: 100%;
@@ -41,12 +45,13 @@ body {
   display: block; }
   @media (min-width: 600px) {
     .row {
-      display: flex; } }
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap; } }
 
 .row [class^="col"] {
   float: left;
   margin: 0.5em 1%;
-  min-height: 1em;
   box-sizing: border-box; }
 
 .col-1 {
@@ -118,6 +123,12 @@ body {
 .col-12 {
   width: 98%; }
 
+.col-dyn-content {
+  width: auto; }
+
+.col-dyn-fill {
+  flex-grow: 2; }
+
 .row::after {
   content: "";
   display: table;
@@ -145,17 +156,12 @@ p {
   margin-bottom: 1em; }
 
 a {
-  background-image: linear-gradient(to right, #fff 50%, rgba(104, 129, 231, 0.7) 50%);
-  background-position: -0% 0;
-  background-size: 200% auto;
   font-weight: 700;
-  color: #454545;
-  text-decoration: none;
-  transition: background-position   0.5s ease-out; }
+  color: #6D7CED;
+  text-decoration: none; }
 
 a:hover {
-  background-position: -99.99% 0%;
-  color: #fff; }
+  text-decoration: underline; }
 
 .container {
   padding: 3em 0; }

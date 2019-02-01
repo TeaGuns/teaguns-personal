@@ -28,19 +28,14 @@ p {
 }
 
 a {
-    background-image: linear-gradient(to right, #fff 50%, rgba(104,129,231,0.7) 50%);
-    background-position: -0% 0;
-    background-size: 200% auto;
     font-weight: 700;
-    color: #454545;
+    color: #6D7CED;
     text-decoration: none;
-    transition: background-position   0.5s ease-out;
   }
-
-a:hover {
-    background-position: -99.99% 0%;
-    color: #fff;
-}
+  
+  a:hover {
+    text-decoration: underline;
+  }
 
 .container {
     padding: 3em 0;
