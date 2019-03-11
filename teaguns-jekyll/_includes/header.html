@@ -1,0 +1,29 @@
+
+<section id="header">
+		{% if page.url == '/index.html' or page.url == '/' %}
+		{% assign home-header = '<p>Currently doing design and product at <a href="https://concourse.global/">Concourse Global</a>. In my free time I can be found working on one of my <a href="#projects">sideprojects</a> or drinking a cup of tea. Often both at the same time.</p>' %}
+	{% else %}
+		{% assign home-header = '' %}
+	{% endif %}
+	<div class="row">
+	    <a class="logo" href="/"><img class="me" src="https://pbs.twimg.com/profile_images/1105204028097654785/OjNLSagP_400x400.png"/></a>
+	    <h1>Hi, I'm Mac Reddin</h1>
+	</div>
+	<div class="row">
+	    <h2>Designer, maker and tea drinker.</h2>
+		  <div class="divider"></div>
+	</div>
+	<div class="row nav-links">  
+		<a href="/blog">Blog</a>
+		<p>•</p>
+		<a href="/goals">Goals</a>
+		<p>•</p>
+		<a target="_blank" href="https://twitter.com/TheTeaGuns">Twitter</a>
+		<p>•</p>
+		<a target="_blank" href="https://dribbble.com/TheTeaGuns">Dribbble</a>
+		<p>•</p>
+		<a href="mailto:m@credd.in">m@credd.in</a>
+	</div>
+	{{ home-header }}
+
+</section>
