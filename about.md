@@ -30,8 +30,6 @@ permalink: /blog
 
 
 	{% endfor %}
-	<p>Oops, no blog posts yet. First one is coming really soon. Subscribe below to get notified!</p>
-
 </section>
 
 <section>

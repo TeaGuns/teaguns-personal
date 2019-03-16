@@ -1,1 +1,50 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://macredd.in/feed.xml" rel="self" type="application/atom+xml" /><link href="https://macredd.in/" rel="alternate" type="text/html" /><updated>2019-03-12T09:54:05-04:00</updated><id>https://macredd.in/feed.xml</id><title type="html">Mac Reddin</title><subtitle>Mac Reddin. Designer, Maker, Tea Drinker.</subtitle></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-03-16T15:11:39-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Mac Reddin</title><subtitle>Mac Reddin. Designer, Maker, Tea Drinker.</subtitle><entry><title type="html">Reflecting on Launching Modagrate</title><link href="http://localhost:4000/what-i-learned-launching-modagrate" rel="alternate" type="text/html" title="Reflecting on Launching Modagrate" /><published>2019-03-16T15:00:00-04:00</published><updated>2019-03-16T15:00:00-04:00</updated><id>http://localhost:4000/what-i-learned-launching-modagrate</id><content type="html" xml:base="http://localhost:4000/what-i-learned-launching-modagrate">&lt;p&gt;I launched my first side project of 2019 (&lt;a href=&quot;https://modagrate.com/&quot; target=&quot;_blank&quot;&gt;Modagrate&lt;/a&gt;), with my friend Erik 21 days ago, on Feburary 22nd. As of writing this post we haven’t signed up a single paying user and are still struggling to decide what Modagrate should be. I’m writing this to outline the process we took in building and launching Modagrate, while trying to identify what we could have done better.&lt;/p&gt;
+
+&lt;h4 id=&quot;timeline-of-the-modagrate-launch&quot;&gt;Timeline of the Modagrate launch&lt;/h4&gt;
+
+&lt;p&gt;&lt;strong&gt;Jan 13&lt;/strong&gt; - A &lt;a href=&quot;https://twitter.com/levelsio/status/1082223843870007297?ref_src=twsrc%5Etfw&quot; target=&quot;_blank&quot;&gt;tweet from Pieter Levels&lt;/a&gt; inspires the idea&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Jan 16&lt;/strong&gt; - We decide to start building, decide on the name Modagrate&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Feb 22&lt;/strong&gt; - Soft launched&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Feb 27&lt;/strong&gt; - Launched on ProductHunt&lt;/p&gt;
+
+&lt;h4 id=&quot;what-did-we-do-on-launch-day&quot;&gt;What did we do on launch day?&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Launched on &lt;a href=&quot;https://www.producthunt.com/posts/modagrate&quot; target=&quot;_blank&quot;&gt;ProductHunt&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Tweeted a bunch&lt;/li&gt;
+  &lt;li&gt;Posted in various Slack and Telegram groups&lt;/li&gt;
+  &lt;li&gt;Launched an improved version of the homepage&lt;/li&gt;
+  &lt;li&gt;Sat back and waited for success to happen&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;On Febuary 26th I was incredibly excited, thinking about how many views and sign ups (including paid!) we were going to get. ProductHunt was all we needed to drive traffic and growth and properly launch Modagrate.&lt;/p&gt;
+
+&lt;p&gt;I could not have been more wrong. Like a lot of indie makers, I believed that tweeting our launch and sticking it on ProductHunt would be a silver bullet to our first customers and instant success. I assumed we could follow in the footsteps of already successful makers. But that only works if you already have a successful track record and a following due to those previous successes.&lt;/p&gt;
+
+&lt;p&gt;We’d committed the cardinal sin - building without validating. We’d assumed that a tweet from Pieter Levels was enough validation that there was a market for our product - all we had to do was build it, and the rest would sort itself out!&lt;/p&gt;
+
+&lt;h4 id=&quot;launch-day-results&quot;&gt;Launch day results&lt;/h4&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;It’s been about a day since &lt;a href=&quot;https://twitter.com/Modagrate?ref_src=twsrc%5Etfw&quot;&gt;@Modagrate&lt;/a&gt; was launched on &lt;a href=&quot;https://twitter.com/ProductHunt?ref_src=twsrc%5Etfw&quot;&gt;@ProductHunt&lt;/a&gt;, so here are some stats!&lt;br /&gt;&lt;br /&gt;👍 50 upvotes&lt;br /&gt;👀 1,028 unique page views&lt;br /&gt;👥 17 sign ups (all free plan)&lt;br /&gt;🛡 199 auto moderation actions processed&lt;br /&gt;💬 4 live chats&lt;br /&gt;🐛 3 user reported bugs fixed&lt;/p&gt;&amp;mdash; Mac (@TheTeaGuns) &lt;a href=&quot;https://twitter.com/TheTeaGuns/status/1101164632419508224?ref_src=twsrc%5Etfw&quot;&gt;February 28, 2019&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;As of writing, we’ve had roughly another 500 unique page views, 8 sign ups (25 total, all free plan), and about 300 auto moderation actions. Definitely not the instant success we’d gotten caught up in believing it would be! We did get tons of support from fellow makers, but as I mention below, that doesn’t neccesarily translate to sign ups or success.&lt;/p&gt;
+
+&lt;h4 id=&quot;what-would-i-have-done-differently&quot;&gt;What would I have done differently?&lt;/h4&gt;
+
+&lt;p&gt;Looking back, the biggest thing we failed to do was validate and build Modagrate with early customers and feedback. Luckily we only spent a few weeks building, so it isn’t a huge amount of time wasted. Can you imagine if we’d silently worked on Modagrate for 6 to 12 months before launching it publically?&lt;/p&gt;
+
+&lt;p&gt;Next time around I’ll be reaching out to potential customers for feedback and input before and while building as well as launching sooner with a more minimal MVP. Even though it can be incredibly stressful and scary to put your ideas and projects out into the world for feedback it is definitely better to get negative feedback earlier rather than later.&lt;/p&gt;
+
+&lt;p&gt;Another issue with building openly in maker communities like &lt;a href=&quot;https://getmakerlog.com/&quot; target=&quot;_blank&quot;&gt;MakerLog&lt;/a&gt; and &lt;a href=&quot;https://wip.chat&quot; target=&quot;_blank&quot;&gt;WIP&lt;/a&gt; is that they can give a false sense of audience for your project. In Modagrate’s case, it was incredibly awesome to see other makers liking and supporting our progress updates, but at the end of the day they weren’t the target audience for Modagrate.&lt;/p&gt;
+
+&lt;p&gt;I think my next project will also be something a bit simpler. Content moderation is a huge, messy beast and I’m not sure Erik and I were equipped to properly tackle it in just a few weeks of work.&lt;/p&gt;
+
+&lt;h4 id=&quot;whats-next-for-modagrate&quot;&gt;What’s next for Modagrate&lt;/h4&gt;
+
+&lt;p&gt;We’ve got a lot of ideas (integrations for starters, to allow people to access our moderation tools without having to integrate with an API) for what to do with Modagrate, so we’ll be spending some time reaching out to possible users and figuring out what direction makes sense both for us and those who could benefit from using Modagrate. We’re definitely not giving up just because we haven’t gotten any paying users yet.&lt;/p&gt;
+
+&lt;p&gt;I’m still incredibly proud of what Erik and I were able to build in such a short time. The Modagrate launch wasn’t a failure, it was a learning experience and everything we’ve learned will be applied both to the future of Modagrate and any other projects we build.&lt;/p&gt;</content><author><name></name></author><summary type="html">I launched my first side project of 2019 (Modagrate), with my friend Erik 21 days ago, on Feburary 22nd. As of writing this post we haven’t signed up a single paying user and are still struggling to decide what Modagrate should be. I’m writing this to outline the process we took in building and launching Modagrate, while trying to identify what we could have done better.</summary></entry></feed>

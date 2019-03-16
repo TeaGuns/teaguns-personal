@@ -77,6 +77,10 @@ img {
   margin-top: 80px;
 }
 
+strong {
+  font-weight: 700;
+}
+
 .logo {
   border-bottom: 0;
   &:hover {
@@ -125,10 +129,11 @@ iframe {
 }
 ul,
 ol {
-  margin: 40px 0;
-  padding-left: 50px;
+  margin: 10px 0;
+  padding-left: 25px;
   li {
     word-wrap: break-word;
+    margin: 5px 0;
   }
   img {
     margin: 40px 0;
@@ -273,6 +278,10 @@ article {
     }
   }
 }
+
+.reading-time {
+  color: $light-gray;
+}
 .block {
   display: block;
 }
@@ -289,6 +298,7 @@ article {
     display: inline-block;
     text-decoration: none;
     border-bottom: none;
+    margin: 0 5px;
   }
   span {
     display: inline-block;
@@ -311,7 +321,7 @@ section {
     margin: 0;
     padding: 0;
     li {
-      margin: 25px 0;
+      margin: 20px 0;
       .title {
         max-width: 100%;
         //overflow: hidden !important;
