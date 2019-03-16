@@ -14,7 +14,7 @@ I launched my first side project of 2019 ([Modagrate](https://modagrate.com/){:t
 
 **Feb 22** - Soft launched
 
-**Feb 27** - Launched on ProductHunt
+**Feb 27** - Full launch (including posting on ProductHunt)
 
 #### What did we do on launch day?
 
