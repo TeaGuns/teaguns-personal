@@ -7,7 +7,7 @@ layout: default
 <!--Subscribe-->
 
 <!--Recent Posts-->
-<!--<section>
+<section>
   <div class="row">
   <h3>Recent Posts</h3>
   {% for post in site.posts offset: 0 limit: 1  %}
@@ -23,7 +23,7 @@ layout: default
     </ul>
     {% endfor %}
   </div>
-</section>-->
+</section>
 <!--Projects-->
 <section>
   <div id="projects" class="row">
