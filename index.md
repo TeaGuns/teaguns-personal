@@ -4,8 +4,6 @@
 
 layout: default
 ---
-<!--Subscribe-->
-
 <!--Recent Posts-->
 <section>
   <div class="row">
