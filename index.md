@@ -26,7 +26,6 @@ layout: default
 <section>
   <div id="projects" class="row">
     <h3>Projects</h3>
-    <p><a target="_blank" href="https://modagrate.com/">Modagrate</a> is an automatic moderation tool designed for Slack, Telegram and Discord communities.</p>
     <p><a href="https://commsponsor.com/">CommSponsor</a> helps connect communities with awesome brands and companies wanting to sponsor them. Built for the Product Hunt Maker Festival 2019.</p>
   </div>
 </section>
