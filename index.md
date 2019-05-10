@@ -26,7 +26,7 @@ layout: default
 <section>
   <div id="projects" class="row">
     <h3>Projects</h3>
-    <p><a href="https://commsponsor.com/">CommSponsor</a> helps connect communities with awesome brands and companies wanting to sponsor them. Originally built for the Product Hunt Maker Festival 2019.</p>
+    <p><a href="https://commsponsor.com/">CommSponsor</a> connects digital communities with companies through sponsorship opportunities. Originally built for the Product Hunt Maker Festival 2019.</p>
   </div>
 </section>
 <section>
