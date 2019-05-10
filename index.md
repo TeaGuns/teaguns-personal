@@ -26,7 +26,7 @@ layout: default
 <section>
   <div id="projects" class="row">
     <h3>Projects</h3>
-    <p><a href="https://commsponsor.com/">CommSponsor</a> helps connect communities with awesome brands and companies wanting to sponsor them. Built for the Product Hunt Maker Festival 2019.</p>
+    <p><a href="https://commsponsor.com/">CommSponsor</a> helps connect communities with awesome brands and companies wanting to sponsor them. Originally built for the Product Hunt Maker Festival 2019.</p>
   </div>
 </section>
 <section>
@@ -51,22 +51,6 @@ layout: default
   </div>
 </section>
 <section>
-  <div class="container work">
-    <div class="row center">
-      <div class="col-12">
-        <h3 id="workTogether">Let's Work Together</h3>
-      </div>
-      <div class="col-3">
-        <p>✉️ <a target="_blank" href="mailto:m@credd.in">m@credd.in</a></p>
-      </div>
-      <div class="col-3">
-        <p>📄 <a target="_blank" href="https://www.dropbox.com/s/43fzol6juiiidsq/Mac%20Resume.pdf?dl=0">Résumé</a></p>
-      </div>
-      <div class="col-3 ">
-        <p>👨‍💻 <a target="_blank" href="https://dribbble.com/TheTeaGuns">View Selected Work</a></p>
-      </div>
-    </div>
-  </div>
   <div id='tr-footer'></div>
       <!-- make reveal calls last -->
     <script>
