@@ -26,7 +26,11 @@ layout: default
 <section>
   <div id="projects" class="row">
     <h3>Projects</h3>
+    <p><strong>Current</strong></p>
     <p><a href="https://commsponsor.com/">CommSponsor</a> connects digital communities with companies through sponsorship opportunities. Originally built for the Product Hunt Maker Festival 2019.</p>
+    <p><strong>Past</strong></p>
+    <p><strong>Modagrate</strong> provided a simple API for developers to integrate AI and human powered content moeration into their app or project.</p>
+    <p><strong>The Chunk</strong> was one of the original Minecraft minigame networks, hosting custom and unique content while supporting thousands of concurrent players. Exited in 2016.</p>
   </div>
 </section>
 <section>
