@@ -23,6 +23,9 @@ group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
 end
 
+gem "nokogiri", ">= 1.10.4"
+
+
 gem "github-pages", '>=197', group: :jekyll_plugins
 
 gem 'jekyll-remote-theme'
