@@ -6,58 +6,20 @@ layout: default
 ---
 <!--Recent Posts-->
 <section>
-  <div class="row">
-  <h3>Recent Posts</h3>
-  {% for post in site.posts offset: 0 limit: 1  %}
-  <ul>
-      <li>
-        <div class="post-date">
-          <span>{{ post.date | date: "%b %d" }}</span>
-        </div>
-        <div class="title">
-          <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a>
-        </div>
-      </li>
-    </ul>
-    {% endfor %}
-  </div>
-</section>
-<!--Projects-->
-<section>
-  <div id="projects" class="row">
-    <h3>Projects</h3>
-    <p><strong>Current</strong></p>
-    <p><a href="https://commsor.com/">Commsor</a> provides community leaders with the tools to better grow, engage and make money for their communities. Originally built for the Product Hunt Maker Festival 2019.</p>
-    <p><strong>Past</strong></p>
-    <p><strong>Modagrate</strong> provided a simple API for developers to integrate AI and human powered content moeration into their app or project.</p>
-    <p><strong>The Chunk</strong> was one of the original Minecraft minigame networks, hosting custom and unique content while supporting thousands of concurrent players. Exited in 2016.</p>
-  </div>
-</section>
-<section>
-  <div class="row">
-    <div id="mc_embed_signup">
-    <p class="sub">If you'd like to get updates on my projects and blog posts, then you can subscribe here.</p>
-      <form action="https://macredd.us20.list-manage.com/subscribe/post?u=4c1f9f7bdbd2d24ace466d96e&amp;id=ee025b4ea1" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-        <div id="mc_embed_signup_scroll">
-          <div class="mc-field-group">
-            <input type="email" placeholder="Your Email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-          </div>
-          <div id="mce-responses" class="clear">
-            <div class="response" id="mce-error-response" style="display:none"></div>
-            <div class="response" id="mce-success-response" style="display:none"></div>
-          </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-          <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_4c1f9f7bdbd2d24ace466d96e_ee025b4ea1" tabindex="-1" value=""></div>
-          <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-        </div>
-      </form>
-      <p>I promise to never spam you. Max 1 email per week.</p>
+  <div class="mini-section">
+    <div class="row flex-center">
+        <h1 class="m-0"><i class="fad fa-cat-space"></i></h1>
+        <h5 class="m-0 mt-1">Hey I'm <span class="text-bold">Mac Reddin</span></h5>
     </div>
-  </div>
-</section>
-<section>
-  <div id='tr-footer'></div>
-      <!-- make reveal calls last -->
-    <script>
-      ScrollReveal().reveal('.row',{duration:1e3,distance:"40px",easing:"cubic-bezier(0.5, -0.01, 0, 1.005)",origin:"bottom",interval:150})
-    </script>
-</section>
+      <div class="row">
+          <h1>I like making things while drinking excessive amounts of tea. Currently building community tools at <a href="https://www.commsor.com" class="hover-link" target="_blank">Commsor</a> and helping community builders connect at <a href="https://www.comm.chat" target="_blank" class="hover-link">Community Chat</a>.</h1>
+          <div class="divider"></div>
+      </div>
+      <div class="row nav-links">  
+        <p>Get in touch 👉</p>
+        <a target="_blank" class="hover-link" href="https://twitter.com/TheTeaGuns">Twitter</a>
+        <a target="_blank" class="hover-link" href="https://www.linkedin.com/in/mac-reddin-7a275716b/">LinkedIn</a>
+        <a class="hover-link" href="mailto:m@credd.in">m@credd.in</a>
+      </div>
+    </div>
+  </section>

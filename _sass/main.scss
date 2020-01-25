@@ -1,11 +1,40 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
-@import url('https://fonts.googleapis.com/css?family=Poppins:800');
 
 $brand: #6D7CED;
 $light-gray: #BFC3C5;
 $lighter-gray: rgb(232, 236, 238);
-$black: #333;
+$black: #171C28;
 
+
+html {
+  --bg: #fff;
+  --bg-secondary: #fcfcfc;
+  --highlight: #6D7CED;
+  --text: #171C28;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: var(--bg);
+}
+
+
+html[data-theme='dark'] {
+  --bg: #171C28;
+  --bg-secondary: #444;
+  --hightlight: #6D7CED;
+  --text: #fff;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+html.transition,
+html.transition *,
+html.transition *:before,
+html.transition *:after {
+    transition: all 650ms !important;
+    transition-delay: 0 !important;
+}
 
 
 * {
@@ -13,12 +42,11 @@ $black: #333;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-html {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-}
 body {
+  height: 99vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 16px;
   line-height: 24px;
   font-weight: normal;
@@ -39,10 +67,11 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Poppins", sans-serif;
   margin-bottom: 1rem;
-  line-height: 1.25;
-  color: #313131;
+  line-height: 1.60;
+  color: $black;
+  letter-spacing: 0.04em;
+  font-weight: 400;
 }
 h1 {
   font-size: 2rem;
@@ -51,7 +80,6 @@ h1 {
 h2 {
   margin-top: 1rem;
   font-size: 1.5rem;
-  color: #BFC3C5;
 }
 
 h3 {
@@ -88,29 +116,32 @@ strong {
   }
 }
 
+.flex-center {
+  display: flex;
+  align-items: center;
+}
+
+.m-0 {
+  margin: 0;
+}
+
+.mt-1 {
+  margin-top: 5px;
+  margin-left: 5px;
+}
+.text-bold {
+  font-weight: 700;
+}
+
 .nav-links {
   margin: 30px 0;
   p {
     display: inline-block;
     margin: 0 10px;
   }
-}
-a {
-  color: inherit;
-  font-weight: 600;
-  text-decoration: none;
-  border-bottom: 1px solid black;
-  transition: all 0.3s;
-  &.image {
-    display: block;
-    text-align: center;
-    border: 0;
-    border-radius: 5px;
-    margin: 30px 0;
-  }
-  &:hover {
-    color: $brand;
-    border-bottom: 2px solid $brand;
+  a {
+    margin: 0 10px;
+    padding: 0 5px;
   }
 }
 mark {
@@ -314,8 +345,11 @@ article {
 }
 
 section {
-  max-width: 660px;
+  max-width: 1000px;
   margin: 0 auto 60px auto;
+  .mini-section {
+    max-width: 700px;
+  }
   ul {
     list-style: none;
     margin: 0;
@@ -435,4 +469,20 @@ section {
 .roles {
   color: $light-gray;
   font-weight: 600;
+}
+
+
+.hover-link {
+  color: inherit;
+  box-shadow: $brand 0 -3px 0 inset;
+  display: inline-block;
+  font-weight: 700;
+  padding: 2px 3px;
+  text-decoration: none currentcolor solid;
+  text-decoration-thickness: auto;
+  transition: all .2s ease-in-out;
+  &:hover {
+    color: #fff;
+    box-shadow: $brand 0 -55px 0 0 inset;
+  }
 }
