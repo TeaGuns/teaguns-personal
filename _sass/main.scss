@@ -391,6 +391,14 @@ section {
   }
 }
 
+.show-sm {
+  display: none;
+}
+
+.hide-sm {
+  display: block;
+}
+
 #mc_embed_signup { 
   border: none;
   text-align: center;
@@ -449,15 +457,36 @@ section {
   }
 }
 
+.text-center {
+  text-align: center;
+}
+
+.mobile-link {
+  margin: 10px 0;
+}
+
 :-webkit-input-placeholder { color: $light-gray; } /* WebKit browsers */ 
 :-moz-placeholder { color: $light-gray; } /* Mozilla Firefox 4 to 18 */
 ::-moz-placeholder { color: $light-gray; } /* Mozilla Firefox 19+ */
 :-ms-input-placeholder { color: $light-gray; } /* Internet Explorer 10+ */
 
 @media (max-width: 768px) { /* positions input field and button underneath each other with 100% width for tablet and mobile */
-  
+  body {
+    height: auto;
+  }
+  a {
+    text-decoration: none;
+  }
 .mc-field-group {
   display: block;
+}
+
+.show-sm {
+  display: block;
+}
+
+.hide-sm {
+  display: none;
 }
 
 #mce-EMAIL { padding: .7em 0 .7em 1em; width: 96%; margin: 0; }

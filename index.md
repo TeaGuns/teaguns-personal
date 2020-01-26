@@ -15,11 +15,23 @@ layout: default
           <h1>I like making things while drinking excessive amounts of tea. Currently building community tools at <a href="https://www.commsor.com" class="hover-link" target="_blank">Commsor</a> and helping community builders connect at <a href="https://www.comm.chat" target="_blank" class="hover-link">Community Chat</a>.</h1>
           <div class="divider"></div>
       </div>
-      <div class="row nav-links">  
+      <div class="row nav-links hide-sm">  
         <p>Get in touch 👉</p>
         <a target="_blank" class="hover-link" href="https://twitter.com/TheTeaGuns">Twitter</a>
         <a target="_blank" class="hover-link" href="https://www.linkedin.com/in/mac-reddin-7a275716b/">LinkedIn</a>
         <a class="hover-link" href="mailto:m@credd.in">m@credd.in</a>
+      </div>
+      <div class="row show-sm text-center">  
+        <p>Get in touch 👇</p>
+        <div>
+          <a target="_blank" class="hover-link mobile-link" href="https://twitter.com/TheTeaGuns">Twitter</a>
+        </div>
+        <div>
+          <a target="_blank" class="hover-link mobile-link" href="https://www.linkedin.com/in/mac-reddin-7a275716b/">LinkedIn</a>
+        </div>
+        <div>
+          <a class="hover-link mobile-link" href="mailto:m@credd.in">m@credd.in</a>
+        </div>
       </div>
     </div>
   </section>
