@@ -5,15 +5,30 @@
 layout: default
 ---
 <!--Recent Posts-->
-<section>
+<section class="body-center">
   <div class="mini-section">
     <div class="row flex-center">
         <h1 class="m-0"><i class="fad fa-cat-space"></i></h1>
         <h5 class="m-0 mt-1">Hey I'm <span class="text-bold">Mac Reddin</span></h5>
     </div>
       <div class="row">
-          <h1>I like making things while drinking excessive amounts of tea. Currently building community tools at <a href="https://www.commsor.com" class="hover-link" target="_blank">Commsor</a> and helping community builders connect at <a href="https://www.comm.chat" target="_blank" class="hover-link">Community Chat</a>.</h1>
-          <div class="divider"></div>
+        <h1>I like making things while drinking excessive amounts of tea. Currently building community tools at <a href="https://www.commsor.com" class="hover-link" target="_blank">Commsor</a>.</h1>
+      </div>
+      <div class="row">
+        <div class="hide-sm">
+          <div class="latest-post">
+            {% for post in site.posts offset: 0 limit: 1 %}
+            <p>Latest Post: <a href="{{ post.url }}" class="hover-link">{{ post.title }}</a> </p>
+            {% endfor %} 
+            <a class="hover-link" href="/posts">View All Posts</a>
+          </div>
+        </div>
+         <div class="latest-post show-sm text-center">
+          {% for post in site.posts offset: 0 limit: 1 %}
+          <p>Latest Post: <a href="{{ post.url }}" class="hover-link">{{ post.title }}</a> </p>
+          {% endfor %} 
+          <a class="hover-link" href="/posts">View All Posts</a>
+        </div>
       </div>
       <div class="row nav-links hide-sm">  
         <p>Get in touch 👉</p>

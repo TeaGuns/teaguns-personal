@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
 
 $brand: #6D7CED;
+$brand-light: #d0d4f5;
 $light-gray: #BFC3C5;
 $lighter-gray: rgb(232, 236, 238);
 $black: #171C28;
@@ -43,7 +44,8 @@ html.transition *:after {
   box-sizing: border-box;
 }
 body {
-  height: 99vh;
+  height: auto;
+  min-height: 99vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -51,15 +53,23 @@ body {
   line-height: 24px;
   font-weight: normal;
   font-style: normal;
+  padding: 20px;
   font-family: "Open Sans", sans-serif;
   color: $black;
-  padding: 20px;
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
   @media (min-width: 992px) {
     padding: 35px 50px;
   }
+}
+
+#content {
+  max-width: 700px;
+}
+
+.body-center {   
+    margin: 0 auto;
 }
 h1,
 h2,
@@ -137,12 +147,33 @@ strong {
   margin: 30px 0;
   p {
     display: inline-block;
-    margin: 0 10px;
+    margin: 0 10px 0 0;
   }
   a {
     margin: 0 10px;
     padding: 0 5px;
   }
+}
+
+.latest-post {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: $brand-light;
+  .hover-link {
+    box-shadow: #fff 0 -3px 0 inset;
+    font-weight: 700;
+    padding: 2px 3px;
+    text-decoration: none currentcolor solid;
+    text-decoration-thickness: auto;
+    transition: all .2s ease-in-out;
+    &:hover {
+      color: $brand;
+      box-shadow: #fff 0 -55px 0 0 inset;
+    }
+  }
+  
 }
 mark {
   background: #fffc76;
@@ -240,8 +271,7 @@ iframe {
 }
 
 article {
-  max-width: 660px;
-  margin: 0 auto;
+  width: 100%;
   h1.title {
     line-height: 1.4em;
     text-align: center;
@@ -345,11 +375,8 @@ article {
 }
 
 section {
-  max-width: 1000px;
+  width: 100%;
   margin: 0 auto 60px auto;
-  .mini-section {
-    max-width: 700px;
-  }
   ul {
     list-style: none;
     margin: 0;
@@ -403,7 +430,7 @@ section {
   border: none;
   text-align: center;
   width: 100%; 
-  background: $lighter-gray;
+  background: $brand-light;
   padding: 20px 0;
   .sub {
     font-size: 1em;
@@ -444,16 +471,16 @@ section {
   font-size: 1em;
   letter-spacing: .03em;
   color: #fff;
-  background-color: $black;
+  background-color: $brand;
   padding: .7em 2em;
-  border: 2px solid $black;
+  border: 2px solid $brand;
   display: inline-block;
   margin: 0; 
   transition: all 0.3s;
   &:hover {
     cursor: pointer;
-    background: $brand;
-    border: 2px solid $brand;
+    background: $black;
+    border: 2px solid $black;
   }
 }
 
