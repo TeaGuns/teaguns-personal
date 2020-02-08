@@ -46,9 +46,6 @@ html.transition *:after {
 body {
   height: auto;
   min-height: 99vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   font-size: 16px;
   line-height: 24px;
   font-weight: normal;
@@ -66,11 +63,15 @@ body {
 
 #content {
   max-width: 700px;
+  margin: 0 auto;
 }
 
-.body-center {   
-    margin: 0 auto;
+.body-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 h1,
 h2,
 h3,
