@@ -1,6 +1,88 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="https://macredd.in/feed.xml" rel="self" type="application/atom+xml" /><link href="https://macredd.in/" rel="alternate" type="text/html" /><updated>2020-02-08T17:08:09-05:00</updated><id>https://macredd.in/feed.xml</id><title type="html">Mac Reddin</title><subtitle>Mac Reddin. Product, design, startups and tea.</subtitle><entry><title type="html">Reflecting on Launching Modagrate</title><link href="https://macredd.in/reflecting-on-launching-modagrate" rel="alternate" type="text/html" title="Reflecting on Launching Modagrate" /><published>2019-03-16T15:00:00-04:00</published><updated>2019-03-16T15:00:00-04:00</updated><id>https://macredd.in/reflecting-on-launching-modagrate</id><content type="html" xml:base="https://macredd.in/reflecting-on-launching-modagrate">&lt;p&gt;I launched my first side project of 2019 (&lt;a href=&quot;https://modagrate.com/&quot; target=&quot;_blank&quot;&gt;Modagrate&lt;/a&gt;), with my friend Erik 21 days ago, on Feburary 22nd. As of writing this post we haven’t signed up a single paying user and are still struggling to decide what Modagrate should be. I’m writing this to outline the process we took in building and launching Modagrate, while trying to identify what we could have done better.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="https://macredd.in/feed.xml" rel="self" type="application/atom+xml" /><link href="https://macredd.in/" rel="alternate" type="text/html" /><updated>2020-02-08T18:39:51-05:00</updated><id>https://macredd.in/feed.xml</id><title type="html">Mac Reddin</title><subtitle>Mac Reddin. Product, design, startups and tea.</subtitle><entry><title type="html">What Minecraft Taught Me About Community</title><link href="https://macredd.in/what-minecraft-taught-me-about-community" rel="alternate" type="text/html" title="What Minecraft Taught Me About Community" /><published>2020-02-07T14:00:00-05:00</published><updated>2020-02-07T14:00:00-05:00</updated><id>https://macredd.in/what-minecraft-taught-me-about-community</id><content type="html" xml:base="https://macredd.in/what-minecraft-taught-me-about-community">&lt;p&gt;After reading &lt;a href=&quot;https://www.eugenewei.com/blog/2019/2/19/status-as-a-service&quot;&gt;an excellent post&lt;/a&gt; by Eugene Wei about Status as a Service earlier this week, I found myself thinking about my past experiences with community and status, and how those experiences could be applied to the communities I was working with today. I set out to write a fairly quick overview, but as you can see below I ended up with something a big longer. Strap in for story time!&lt;/p&gt;
 
-&lt;h4 id=&quot;timeline-of-the-modagrate-launch&quot;&gt;Timeline of the Modagrate launch&lt;/h4&gt;
+&lt;p&gt;Before starting &lt;a href=&quot;https://www.commsor.com&quot;&gt;Commsor&lt;/a&gt;,  I started and ran a business called The Chunk. Most of you have  probably heard of Minecraft, but I’d bet that most of you aren’t aware  that Minecraft used to support an entire ecosystem of startups (and  still does, to a lesser extent) in the form of Minecraft hosting and  servers. Unlike Triple A games like Call of Duty, Minecraft didn’t  provide centralized multiplayer servers (Realms being the exception, but  that service launched far too late to have a major impact).&lt;/p&gt;
+
+&lt;p&gt;This  meant that the entire multiplayer experience was left up to independent  server hosts. The Minecraft multiplayer ecosystem exploded, quickly  growing from small, classic survival servers to custom games built  within the game. Minecraft was becoming a sort of game engine, and I was  one of thousands of people that saw potential in building custom  content on top of such a world wide phenomenon.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://blog.commsor.com/content/images/2019/11/chunkbanner.gif&quot; alt=&quot;Banner for The Chunk&quot; /&gt;&lt;/p&gt;
+&lt;h6 id=&quot;a-banner-advert-for-the-chunk&quot;&gt;A banner advert for The Chunk&lt;/h6&gt;
+
+&lt;p&gt;And so The Chunk was born, a Minecraft server network made up of a  hub world connected to various smaller game servers where players could  play a variety of custom content we’d create for them. This content  ranged from simple capture the flag style games, like BlockWars, to more  complex recreations of AAA titles like Titanfall. &lt;a href=&quot;https://www.pcgamer.com/mod-of-the-week-ironfall-for-minecraft/&quot;&gt;Yes, we recreated a first person shooter game with mechs, rocket launchers and more in Minecraft.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;For  the first year of building The Chunk, I thought we were building a  gaming company. We were, after all, creating games, had players, and  measured our success and metrics in much the same way that larger video  game companies do. It wasn’t until the start of our second year that it  really hit me – The Chunk was a community business that just happened to  be a gaming community.&lt;/p&gt;
+
+&lt;p&gt;By the end of our first year, we  had a variety custom games, tons of micro content, and we held our first  big ‘state of The Chunk’ survey. We wanted to collect feedback from our  players, find out what they liked and how we could improve. One of the core questions in the survey was “What is your favorite game on The  Chunk?”. We had fairly good metrics on which games players spent their  time on, so we figured we roughly knew how that question would be  answered. We were wrong.&lt;/p&gt;
+
+&lt;p&gt;Now a bit of a sidebar before I reveal  what the answer was. In order to play games on The Chunk you first had  to join a ‘hub’ server. From the hub server you could form parties, chat  with other players, and join into any of our games to start playing.  Players would often hang out on this hub to chat, find others to play  with and just generally socialize. Nearly 30% of our players answered  the favorite game question with a write in: “The Hub”.&lt;/p&gt;
+
+&lt;p&gt;We’d never  treated the hub as a game, and as such hadn’t included it on the list of  favorite game options. In retrospect that result should have been  obvious to me - the games on The Chunk were just a means to socialize,  and the hub was the central location for all that socialization to  happen. Players chatted about their days, game strategies, even met  future significant others on our hub. Players came for the games, but  stayed for the social hub.&lt;/p&gt;
+
+&lt;p&gt;I promise that my rambling above is mostly necessary backstory so that I  can share what The Chunk and Minecraft taught me about community.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://blog.commsor.com/content/images/2019/11/ChunkhubT.jpg&quot; alt=&quot;The Chunk hub&quot; /&gt;&lt;/p&gt;
+&lt;h6 id=&quot;part-of-the-chunk-hub-v3-showing-three-games---minerware-haunted-and-iron-fall&quot;&gt;Part of the Chunk Hub v3, showing three games - Minerware, Haunted and Iron Fall&lt;/h6&gt;
+
+&lt;h3 id=&quot;earning-social-status-and-social-capital&quot;&gt;Earning Social Status and Social Capital&lt;/h3&gt;
+
+&lt;p&gt;Running, growing and hosting The Chunk wasn’t free. At our peak we  had a paid and fully remote team of 10 with nearly 50 volunteer player  moderators and hundreds of dollars per month in hosting costs. All our  games and content were free for anyone to access, so we had to find ways  to get some players to give us money - a freemium model.&lt;/p&gt;
+
+&lt;p&gt;We could  have taken the “pay to win” (p2w) approach, where those who spend money  get advantages in the games. Better weapons, better armor, more speed,  etc. Most Minecraft servers took this approach, but we were trying to  build something different, something that was fair for all players,  premium or free.So we turned to social status.&lt;/p&gt;
+
+&lt;p&gt;Players  could purchase a premium rank and get access to a fancy colored name,  special hats pets and other cosmetic items. These cosmetic upgrades  offered no gameplay bonus, they just made players look cool.  And for all the players who saw our hub as their favorite ‘game’,  looking cool and standing out from other players provided social status.&lt;/p&gt;
+
+&lt;p&gt;This  model has been applied to gaming more and more in the last decade,  especially with games like Fortnite. Fortnite is 100% free to play, and  they monetize exclusively by selling players cool looking skins,  pickaxes and other cosmetic items. Just like on The Chunk, these  cosmetic items offer zero bonuses to gameplay. Yet Fortnite parent  company &lt;a href=&quot;https://techcrunch.com/2018/12/27/epic-fortnite-3-billion-profit/&quot;&gt;Epic still made $3 billion in profit in 2018&lt;/a&gt;, with estimates attributing more than $2 billion of that to Fortnite. Social status is powerful.&lt;/p&gt;
+
+&lt;p&gt;I  can feel you asking “But how does this apply to my community? It’s  completely free and I’m not going to charge any of my members for  anything.” Social status still plays a very important place in a free  community. The most active members who contribute the most will  naturally rise to the top of the somewhat invisible social order of the  community.&lt;/p&gt;
+
+&lt;p&gt;You see this phenomenon on Reddit, where users who  contribute frequent, quality discussion are often recognized and stand  above your regular Reddit readers. A great example of this is u/Unidan, &lt;a href=&quot;https://en.wikipedia.org/wiki/Unidan&quot;&gt;who even has his own Wikipedia article&lt;/a&gt;! Some community platforms, like Reddit and its’ upvote system, have a built in way for users to rise to the top.&lt;/p&gt;
+
+&lt;p&gt;You  should consider finding ways to recognize the top members in your  community, whether that be rewarding the most active users with a  special role, featuring a user of the month, or something else. Give  community members a way to earn social status and capital.&lt;/p&gt;
+
+&lt;h3 id=&quot;varied-member-experiences&quot;&gt;Varied Member Experiences&lt;/h3&gt;
+&lt;p&gt;We had a lot of custom games and content at The Chunk, and some  players exclusively played one game while others jumped around across  many games. Hardcore players of Block Wars (our capture the flag game)  had different expectations than players of Thimble (a casual jumping  game). Trying to design, provide for and engage with our players could  never have worked with a ‘one size fits all’ approach.&lt;/p&gt;
+
+&lt;p&gt;The same  goes for most communities. Each member of your community will have a  different individual experience, depending on who they interact with in  the community and their purpose for joining. You, as the community  leader, will have an especially unique experience compared to your  average members. Find out who is in your community, why they are there,  and what their differing expectations from the community are.&lt;/p&gt;
+
+&lt;p&gt;You  likely won’t be able to provide one type of engagement or content and  expect to provide value to all members. You’ll have to break your  community members into buckets and provide value add for each bucket.&lt;/p&gt;
+
+&lt;p&gt;Take  Latka SaaS Hackers, a Slack community of SaaS (software as a service)  founders, CEOs, investors and professionals. The community consists of  veteran and new founders, investors, and other SaaS professionals  (marketers, product managers, sales and more). They all have different  expectations for the group, so various ways have been designed various  ways for each of these community member buckets to find unique value.&lt;/p&gt;
+
+&lt;p&gt;For  the more veteran founders, there are private Slack channels where they  can interact with other verified founders at their level. For the less  experienced founders, the community hosts a weekly Ask-Me-Anything  session with a prominent founder, investor or professional, giving them a  chance to learn from those who’ve been there before them. There are  also have channels dedicated to discussing sales for those who are  learning how to be effective at that.&lt;/p&gt;
+
+&lt;p&gt;A community is a composition  of smaller sub-communities. You first need to understood who your  community members are, what buckets they fall into, and then find ways  to provide value to each of those groups of members.&lt;/p&gt;
+
+&lt;h3 id=&quot;create-community-engagement&quot;&gt;Create Community Engagement&lt;/h3&gt;
+&lt;p&gt;In the early days of The Chunk, we had problems with low player  counts. At certain times, our total player count would dip too low for  some games to have enough players to start, which created a vicious  cycle. Players who wanted to play a game that didn’t have enough other  players would eventually leave, preventing that game from ever getting  the required number to start.&lt;/p&gt;
+
+&lt;p&gt;To encourage new players to try some  of these games, we started hosting weekly events. These events helped  get existing players into these less popular games, while also  attracting new players to bolster the player count. Something really  interesting happened after we’d been doing these events for a few weeks –  the player counts of the games stayed higher between the events. We  became less and less dependent on the events for success, and were able  to cycle them into other games.&lt;/p&gt;
+
+&lt;p&gt;You’ll likely face a similar  problem in your community, especially when first starting out. If you  simply put strangers together under the banner of ‘community’, chances  are that you’ll end up with a silent community. Typically, users won’t  be engagement creators as they’ll end up following the 90 - 9 - 1 rule,  which states that in a community only 1% of members will actively create  content and engagement, while 9% will engage with created content. This  leaves 90% as lurkers, who may very well still find value in the  community, even if they aren’t visibly contributing.&lt;/p&gt;
+
+&lt;p&gt;The exact  distribution will vary from community to community, but in the early  days you need to be the 1% that creates engagement. Give your members  content to engage with and respond to. This could be as simple as posing  a question of the week or consistently sharing interesting content with  your members. You could also host digital events like we did at The  Chunk. Find out what type of content and events your community engages  best with, and give it to them.&lt;/p&gt;
+
+&lt;p&gt;As your community grows, you’ll  reach a critical mass where you have enough members that the 1% creating  content will be more than just you.&lt;/p&gt;
+
+&lt;h3 id=&quot;let-members-contribute&quot;&gt;Let Members Contribute&lt;/h3&gt;
+&lt;p&gt;At The Chunk, the primary way that we let our members contribute was  through our player moderator system. Anyone who has ever been involved  in gaming in any way will know that gamers can be toxic when left  unsupervised. Our player moderators were made up of the older, more  mature members of our player base, who volunteered their time to help  deal with reports of players breaking rules, bullying, and more.&lt;/p&gt;
+
+&lt;p&gt;What  did they get in return for their time? Social status and capital! The  player moderator rank and title was an envious one in game that many  other players respected and looked up to. The little red “Mod” tag that  these volunteers got in front of their usernames was highly desirable,  and it these moderators something in return for the help they provided.&lt;/p&gt;
+
+&lt;p&gt;Members  will likely offer to volunteer to help out in the community, whether it  be in through moderation, frequent engagement, or helping to create and  host events. Let them! Find ways to let the most dedicated community  members lead, create content, and provide value to other members.&lt;/p&gt;
+
+&lt;div class=&quot;divider&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;Creating, running and growing a Minecraft server for three and a half  years taught me a lot about community. I could probably write a post  two-to-three times longer than this one if I were to include everything,  but I’ll leave you with these four points that you can apply to your  own community.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Give community members the ability to earn social status and capital within the community.&lt;/li&gt;
+  &lt;li&gt;Truly  understand who your different members are, what value looks like to  them in the community, and find ways to provide that value.&lt;/li&gt;
+  &lt;li&gt;Create  engagement. As your community grows, members should create engagement  among themselves, but you can always create points of engagement to help  encourage it, especially in the early days.&lt;/li&gt;
+  &lt;li&gt;Let your  most active and dedicated members contribute back to the community,  through moderation, events, and engagement creation.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;divider&quot;&gt;&lt;/div&gt;</content><author><name></name></author><summary type="html">After reading an excellent post by Eugene Wei about Status as a Service earlier this week, I found myself thinking about my past experiences with community and status, and how those experiences could be applied to the communities I was working with today. I set out to write a fairly quick overview, but as you can see below I ended up with something a big longer. Strap in for story time!</summary></entry><entry><title type="html">Reflecting on Launching Modagrate</title><link href="https://macredd.in/reflecting-on-launching-modagrate" rel="alternate" type="text/html" title="Reflecting on Launching Modagrate" /><published>2019-03-16T15:00:00-04:00</published><updated>2019-03-16T15:00:00-04:00</updated><id>https://macredd.in/reflecting-on-launching-modagrate</id><content type="html" xml:base="https://macredd.in/reflecting-on-launching-modagrate">&lt;p&gt;I launched my first side project of 2019 (&lt;a href=&quot;https://modagrate.com/&quot; target=&quot;_blank&quot;&gt;Modagrate&lt;/a&gt;), with my friend Erik 21 days ago, on Feburary 22nd. As of writing this post we haven’t signed up a single paying user and are still struggling to decide what Modagrate should be. I’m writing this to outline the process we took in building and launching Modagrate, while trying to identify what we could have done better.&lt;/p&gt;
+
+&lt;h3 id=&quot;timeline-of-the-modagrate-launch&quot;&gt;Timeline of the Modagrate launch&lt;/h3&gt;
 
 &lt;p&gt;&lt;strong&gt;Jan 13&lt;/strong&gt; - A &lt;a href=&quot;https://twitter.com/levelsio/status/1082223843870007297?ref_src=twsrc%5Etfw&quot; target=&quot;_blank&quot;&gt;tweet from Pieter Levels&lt;/a&gt; inspires the idea&lt;/p&gt;
 
@@ -10,7 +92,7 @@
 
 &lt;p&gt;&lt;strong&gt;Feb 27&lt;/strong&gt; - Full launch (including posting on ProductHunt)&lt;/p&gt;
 
-&lt;h4 id=&quot;what-did-we-do-on-launch-day&quot;&gt;What did we do on launch day?&lt;/h4&gt;
+&lt;h3 id=&quot;what-did-we-do-on-launch-day&quot;&gt;What did we do on launch day?&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Launched on &lt;a href=&quot;https://www.producthunt.com/posts/modagrate&quot; target=&quot;_blank&quot;&gt;ProductHunt&lt;/a&gt;&lt;/li&gt;
@@ -26,14 +108,14 @@
 
 &lt;p&gt;We’d committed the cardinal sin - building without validating. We’d assumed that a tweet from Pieter Levels was enough validation that there was a market for our product - all we had to do was build it, and the rest would sort itself out!&lt;/p&gt;
 
-&lt;h4 id=&quot;launch-day-results&quot;&gt;Launch day results&lt;/h4&gt;
+&lt;h3 id=&quot;launch-day-results&quot;&gt;Launch day results&lt;/h3&gt;
 
 &lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;It’s been about a day since &lt;a href=&quot;https://twitter.com/Modagrate?ref_src=twsrc%5Etfw&quot;&gt;@Modagrate&lt;/a&gt; was launched on &lt;a href=&quot;https://twitter.com/ProductHunt?ref_src=twsrc%5Etfw&quot;&gt;@ProductHunt&lt;/a&gt;, so here are some stats!&lt;br /&gt;&lt;br /&gt;👍 50 upvotes&lt;br /&gt;👀 1,028 unique page views&lt;br /&gt;👥 17 sign ups (all free plan)&lt;br /&gt;🛡 199 auto moderation actions processed&lt;br /&gt;💬 4 live chats&lt;br /&gt;🐛 3 user reported bugs fixed&lt;/p&gt;&amp;mdash; Mac (@TheTeaGuns) &lt;a href=&quot;https://twitter.com/TheTeaGuns/status/1101164632419508224?ref_src=twsrc%5Etfw&quot;&gt;February 28, 2019&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
 
 &lt;p&gt;As of writing, we’ve had roughly another 500 unique page views, 8 sign ups (25 total, all free plan), and about 300 auto moderation actions. Definitely not the instant success we’d gotten caught up in believing it would be! We did get tons of support from fellow makers, but as I mention below, that doesn’t neccesarily translate to sign ups or success.&lt;/p&gt;
 
-&lt;h4 id=&quot;what-would-i-have-done-differently&quot;&gt;What would I have done differently?&lt;/h4&gt;
+&lt;h3 id=&quot;what-would-i-have-done-differently&quot;&gt;What would I have done differently?&lt;/h3&gt;
 
 &lt;p&gt;Looking back, the biggest thing we failed to do was validate and build Modagrate with early customers and feedback. Luckily we only spent a few weeks building, so it isn’t a huge amount of time wasted. Can you imagine if we’d silently worked on Modagrate for 6 to 12 months before launching it publically?&lt;/p&gt;
 
@@ -43,8 +125,10 @@
 
 &lt;p&gt;I think my next project will also be something a bit simpler. Content moderation is a huge, messy beast and I’m not sure Erik and I were equipped to properly tackle it in just a few weeks of work.&lt;/p&gt;
 
-&lt;h4 id=&quot;whats-next-for-modagrate&quot;&gt;What’s next for Modagrate&lt;/h4&gt;
+&lt;h3 id=&quot;whats-next-for-modagrate&quot;&gt;What’s next for Modagrate&lt;/h3&gt;
 
 &lt;p&gt;We’ve got a lot of ideas (integrations for starters, to allow people to access our moderation tools without having to integrate with an API) for what to do with Modagrate, so we’ll be spending some time reaching out to possible users and figuring out what direction makes sense both for us and those who could benefit from using Modagrate. We’re definitely not giving up just because we haven’t gotten any paying users yet.&lt;/p&gt;
 
-&lt;p&gt;I’m still incredibly proud of what Erik and I were able to build in such a short time. The Modagrate launch wasn’t a failure, it was a learning experience and everything we’ve learned will be applied both to the future of Modagrate and any other projects we build.&lt;/p&gt;</content><author><name></name></author><summary type="html">I launched my first side project of 2019 (Modagrate), with my friend Erik 21 days ago, on Feburary 22nd. As of writing this post we haven’t signed up a single paying user and are still struggling to decide what Modagrate should be. I’m writing this to outline the process we took in building and launching Modagrate, while trying to identify what we could have done better.</summary></entry></feed>
+&lt;p&gt;I’m still incredibly proud of what Erik and I were able to build in such a short time. The Modagrate launch wasn’t a failure, it was a learning experience and everything we’ve learned will be applied both to the future of Modagrate and any other projects we build.&lt;/p&gt;
+
+&lt;div class=&quot;divider&quot;&gt;&lt;/div&gt;</content><author><name></name></author><summary type="html">I launched my first side project of 2019 (Modagrate), with my friend Erik 21 days ago, on Feburary 22nd. As of writing this post we haven’t signed up a single paying user and are still struggling to decide what Modagrate should be. I’m writing this to outline the process we took in building and launching Modagrate, while trying to identify what we could have done better.</summary></entry></feed>
