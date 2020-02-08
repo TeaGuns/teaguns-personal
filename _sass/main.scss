@@ -273,6 +273,20 @@ iframe {
 
 article {
   width: 100%;
+  a {
+    color: inherit;
+    box-shadow: $brand 0 -3px 0 inset;
+    display: inline;
+    font-weight: 700;
+    padding: 2px 3px;
+    text-decoration: none currentcolor solid;
+    text-decoration-thickness: auto;
+    transition: all .2s ease-in-out;
+  &:hover {
+    color: #fff;
+    box-shadow: $brand 0 -55px 0 0 inset;
+  }
+  }
   h1.title {
     line-height: 1.4em;
     text-align: center;
@@ -333,10 +347,6 @@ article {
       border: 0;
       color: #0087BE;
     }
-  }
-  a:hover {
-    color: #369;
-    border-color: #369;
   }
 }
 .back {
