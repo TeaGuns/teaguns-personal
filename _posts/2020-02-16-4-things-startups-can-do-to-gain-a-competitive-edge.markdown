@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "4 Things Startups Can Do to Gain a Competitive Edge in 2020"
+title:  "4 Things Startups Can Do to Gain a Competitive Edge"
 date:   2020-02-18 05:00:00 -0400
 ---
 
