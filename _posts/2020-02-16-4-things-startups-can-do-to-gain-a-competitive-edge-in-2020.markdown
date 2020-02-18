@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "4 Competitive Advantages for Startups in 2020"
-date:   2020-02-16 15:00:00 -0400
+title:  "4 Things Startups Can Do to Gain a Competitive Edge in 2020"
+date:   2020-02-18 05:00:00 -0400
 ---
 
 It can be daunting starting a business, especially in the tech world where you're often trying to displace an existing giant to some degree. Startups have long had the advantage of being leaner, faster moving, and more responsive than their older and larger competition, but there are always other ways that you can gain a competitive edge. 
