@@ -567,3 +567,12 @@ section {
     box-shadow: $brand 0 -55px 0 0 inset;
   }
 }
+
+.no-wrap {
+  max-width: 440px;
+  vertical-align: middle;
+  margin-top: -5px;
+  text-overflow:ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}

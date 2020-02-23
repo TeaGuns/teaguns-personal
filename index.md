@@ -18,7 +18,7 @@ layout: home
         <div class="hide-sm">
           <div class="latest-post">
             {% for post in site.posts offset: 0 limit: 1 %}
-            <p>Latest Post: <a href="{{ post.url }}" class="hover-link">{{ post.title }}</a> </p>
+            <p>Latest Post: <a href="{{ post.url }}" class="hover-link no-wrap">{{ post.title }}</a> </p>
             {% endfor %} 
             <a class="hover-link" href="/posts">View All Posts</a>
           </div>

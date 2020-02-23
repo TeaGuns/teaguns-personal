@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "4 Things Startups Can Do to Gain a Competitive Edge"
+title:  "4 Things Startups Can Do to Gain a Competitive Edge in 2020"
 date:   2020-02-18 05:00:00 -0400
 ---
 
@@ -58,7 +58,7 @@ You don’t have to invest thousands of dollars or hundreds of hours of time to 
 
 **Community as a feature** - Community can even be a feature for your business, especially if its something your competitors don’t have. Which product, all other things equal, would you rather buy from? The one without a community, or the one with a community where you can connect with other users, get direct support from the company, etc?
 
-There are so many more reasons you should be building a community alongside your startup. More on that in a future post! If you want to learn more right now, you should <a href="https://www.comm.chat" target="_blank">join Community Chat</a>, a community for community builders.
+There are so many more reasons you should be building a community alongside your startup. More on that in a future post! If you want to learn more right now, you should <a href="https://comm.chat/" target="_blank">join Community Chat</a>, a community for community builders.
 
 ### No Code? No Problem
 
