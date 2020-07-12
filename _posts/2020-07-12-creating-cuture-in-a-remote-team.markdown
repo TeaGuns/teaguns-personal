@@ -51,7 +51,7 @@ Culture-add is how you build a diverse team. Hire people that will add to and im
 
 ### Team retreats
 
-Our team is currently 7, yet I've only met 2 of them face to face, and while I certainly get a lot of virtual face time with them, in-person face time is still important and critical to really getting to know your teammates. While we haven't been able to have a team retreat yet, we are planning on getting the team together in early 2021 (please wear a mask so I can finally meet the rest of our awesome team!).
+Our team is currently 7, yet I've only met 2 of them face to face. While I certainly get a lot of virtual face time with them, in-person face time is still important and critical to really getting to know your teammates. While we haven't been able to have a team retreat yet, we are planning on getting the team together in early 2021 (please wear a mask so I can finally meet the rest of our awesome team!).
 
 For more tactical thoughts, I highly recommend [this post](https://zapier.com/learn/remote-work/how-run-company-retreat-remote-team/) from Wade Foster about how they run team retreats at Zapier.
 
