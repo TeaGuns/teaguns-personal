@@ -12,7 +12,7 @@ layout: home
         <h5 class="m-0 mt-1">Hey I'm <span class="text-bold">Mac Reddin</span></h5>
     </div>
       <div class="row">
-        <h1>I like making things while drinking excessive amounts of tea. Currently building community tools at <a href="https://www.commsor.com" class="hover-link" target="_blank">Commsor</a>.</h1>
+        <h1>I like making things while drinking excessive amounts of tea. Currently building community at <a href="https://www.commsor.com" class="hover-link" target="_blank">Commsor</a>.</h1>
       </div>
       <div class="row">
         <div class="hide-sm">
@@ -35,7 +35,7 @@ layout: home
       <div class="row nav-links hide-sm">  
         <p>Get in touch 👉</p>
         <a target="_blank" class="hover-link" href="https://twitter.com/TheTeaGuns">Twitter</a>
-        <a class="hover-link" data-formkit-toggle="4ee15e5259" href="https://macreddin.ck.page/4ee15e5259">Newsletter</a>
+        <!--<a class="hover-link" data-formkit-toggle="4ee15e5259" href="https://macreddin.ck.page/4ee15e5259">Newsletter</a>-->
         <a target="_blank" class="hover-link" href="https://www.linkedin.com/in/mac-reddin-7a275716b/">LinkedIn</a>
         <a class="hover-link" href="mailto:m@credd.in">m@credd.in</a>
       </div>
@@ -44,9 +44,9 @@ layout: home
         <div>
           <a target="_blank" class="hover-link mobile-link" href="https://twitter.com/TheTeaGuns">Twitter</a>
         </div>
-        <div>
+        <!--<div>
           <a class="hover-link mobile-link" data-formkit-toggle="4ee15e5259" href="https://macreddin.ck.page/4ee15e5259">Newsletter</a>
-        </div>
+        </div>-->
         <div>
           <a target="_blank" class="hover-link mobile-link" href="https://www.linkedin.com/in/mac-reddin-7a275716b/">LinkedIn</a>
         </div>
