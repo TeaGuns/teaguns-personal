@@ -30,6 +30,8 @@ In no particular order, a few predictions for community in the 2020s. A thread �
 
 🤑 Companies will continue to acquire communities as starting points for their own. See Outreach + Saleshacker, Stripe + Indiehackers, and DigitalOcean + Scotch.
 
+💡 More and more companies will build communities of interest, rather than just customer & support communities. This will enable their communities to reach a wider audience, and ultimately be seen as revenue generators rather than cost centers.
+
 💬 A number of independent communities will turn into full-fledged businesses and media 'empires' as they grow beyond the community they started with.
 
 🛠 Consolidation of tools. We're currently in a golden age of community, engagement and event tools, but over the next decade we'll see major players start to lead, acquire competitors, and ultimately 'win'. We'll also see existing companies (Salesforce, Slack, etc) invest more in community by acquiring companies that are being built right now.
