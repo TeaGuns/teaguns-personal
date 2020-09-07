@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="https://macredd.in/feed.xml" rel="self" type="application/atom+xml" /><link href="https://macredd.in/" rel="alternate" type="text/html" /><updated>2020-09-07T13:04:31-04:00</updated><id>https://macredd.in/feed.xml</id><title type="html">Mac Reddin</title><subtitle>Mac Reddin. Product, design, startups and tea.</subtitle><entry><title type="html">Slack as a Community Platform</title><link href="https://macredd.in/slack-as-a-community-platform" rel="alternate" type="text/html" title="Slack as a Community Platform" /><published>2020-09-07T05:00:00-04:00</published><updated>2020-09-07T05:00:00-04:00</updated><id>https://macredd.in/slack-as-a-community-platform</id><content type="html" xml:base="https://macredd.in/slack-as-a-community-platform">&lt;p&gt;&lt;em&gt;“Why would you pick Slack over a forum platform for your community?”&lt;/em&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="https://macredd.in/feed.xml" rel="self" type="application/atom+xml" /><link href="https://macredd.in/" rel="alternate" type="text/html" /><updated>2020-09-07T13:17:52-04:00</updated><id>https://macredd.in/feed.xml</id><title type="html">Mac Reddin</title><subtitle>Mac Reddin. Product, design, startups and tea.</subtitle><entry><title type="html">Slack as a Community Platform</title><link href="https://macredd.in/slack-as-a-community-platform" rel="alternate" type="text/html" title="Slack as a Community Platform" /><published>2020-09-07T05:00:00-04:00</published><updated>2020-09-07T05:00:00-04:00</updated><id>https://macredd.in/slack-as-a-community-platform</id><content type="html" xml:base="https://macredd.in/slack-as-a-community-platform">&lt;p&gt;&lt;em&gt;“Why would you pick Slack over a forum platform for your community?”&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;“Should I go with Slack or Discourse for the community that I’m building?”&lt;/em&gt;&lt;/p&gt;
 
@@ -12,7 +12,7 @@
 
 &lt;p&gt;&lt;strong&gt;Easy setup &amp;amp; no cost&lt;/strong&gt; . You can easily spin it up and launch your community in less than a day on Slack. You won’t need a dedicated person to manage it, or months of setup work. And assuming you go with the free tier, it won’t cost you a cent!&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Low barrier to engage.&lt;/strong&gt; Depending on your target audience, Slack is likely something many of them are using every day for work, so its’ very low effort for them to join and participate. Unlike forums, which require you to be intentional about visiting them and engaging&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Low barrier to engage.&lt;/strong&gt; Depending on your target audience, Slack is likely something many of them are using every day for work, so it’s very low effort for them to join and participate. Unlike forums, which require you to be intentional about visiting them and engaging&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Chat is better than forum posts&lt;/strong&gt;. This is very depenent on the type of community you’re trying to build. The nature of conversation tends to be different than forums. Chat allows for shorter, more casual messaging, while on forums you tend to have to be more intentional (for lack of a better word).&lt;/p&gt;
 
@@ -34,7 +34,7 @@
 
 &lt;h3 id=&quot;slack-isnt-for-you-if&quot;&gt;Slack isn’t for you if…&lt;/h3&gt;
 
-&lt;p&gt;Slack is &lt;em&gt;far&lt;/em&gt; from a perfect as a community platform. I mean, its not even meant to be one! For certain types of communities, it can be a killer choice, but it certainly isn’t for every community. Slack probably isn’t a great choice for you if:&lt;/p&gt;
+&lt;p&gt;Slack is &lt;em&gt;far&lt;/em&gt; from perfect as a community platform. I mean, its not even meant to be one! For certain types of communities, it can be a killer choice, but it certainly isn’t for every community. Slack probably isn’t a great choice for you if:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Your audience isn’t likely to already be on Slack. In this case you lose the benefit of the lower barrier to entry and participation that other communities get from having their members already be on Slack for work.&lt;/li&gt;

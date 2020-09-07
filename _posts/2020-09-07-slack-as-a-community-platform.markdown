@@ -18,7 +18,7 @@ We run the Community Club on Slack, and have no plans to switch off any time soo
 
 **Easy setup & no cost** . You can easily spin it up and launch your community in less than a day on Slack. You won't need a dedicated person to manage it, or months of setup work. And assuming you go with the free tier, it won't cost you a cent!
 
-**Low barrier to engage.** Depending on your target audience, Slack is likely something many of them are using every day for work, so its' very low effort for them to join and participate. Unlike forums, which require you to be intentional about visiting them and engaging
+**Low barrier to engage.** Depending on your target audience, Slack is likely something many of them are using every day for work, so it's very low effort for them to join and participate. Unlike forums, which require you to be intentional about visiting them and engaging
 
 **Chat is better than forum posts**. This is very depenent on the type of community you're trying to build. The nature of conversation tends to be different than forums. Chat allows for shorter, more casual messaging, while on forums you tend to have to be more intentional (for lack of a better word). 
 
@@ -40,7 +40,7 @@ Slack is best compared to platforms like Discord, Telegram and WhatsApp, not for
 
 ### Slack isn't for you if...
 
-Slack is *far* from a perfect as a community platform. I mean, its not even meant to be one! For certain types of communities, it can be a killer choice, but it certainly isn't for every community. Slack probably isn't a great choice for you if:
+Slack is *far* from perfect as a community platform. I mean, its not even meant to be one! For certain types of communities, it can be a killer choice, but it certainly isn't for every community. Slack probably isn't a great choice for you if:
 
 - Your audience isn't likely to already be on Slack. In this case you lose the benefit of the lower barrier to entry and participation that other communities get from having their members already be on Slack for work.
 - Your community is large, more than 5k-10k members. While their are examples of successful Slack communities with 20k+ members, Slack really starts to fall apart around the few thousand member mark. You'll eat through the 10,000 message limit too fast, conversation will flow faster than anyone can follow, etc.
