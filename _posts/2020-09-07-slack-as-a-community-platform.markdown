@@ -61,8 +61,8 @@ I strongly feel that Slack should lean into the grassroots community usage that 
 
 Is Slack the best platform for your community? Maybe - it depends on so many factors. At the end of the day, discussing platforms is the community equivalent of picking the right language for software development. In the short term, it probably doesn't matter. Pick something, understand the *why*, and just start building your community. You can always switch platforms when you have a reason to. Don't be frozen by platform paralysis. 
 
-Also if you think its not possible to build a succesful community on Slack, I suggest you check out our community, [The Community Club](https://www.community.club/). We're nearly 1,500 members, run on Slack, and going strong.
+Also if you think its not possible to build a succesful community on Slack, I suggest you check out our community, <a href="https://www.community.club/" target="_blank">The Community Club</a>. We're nearly 1,500 members, run on Slack, and going strong.
 
 <div class="divider"></div>
 
-Shoutout to [Colin](https://twitter.com/ColinBrauns), [Alex](https://twitter.com/alexjpanagis), [Laima](https://twitter.com/LaimaVai), [Karl](https://twitter.com/karl_mc_carthy) and many others from the Community Club for talking about this subject and inspiring me to write this post!
+Shoutout to <a href="https://twitter.com/ColinBrauns" target="_blank">Colin</a>, <a href="https://twitter.com/LaimaVai" target="_blank">Laima</a>, <a href="https://twitter.com/karl_mc_carthy" target="_blank">Karl</a>, <a href="https://twitter.com/alexjpanagis" target="_blank">Alex</a> and many others from the Community Club for talking about this subject and inspiring me to write this post!
