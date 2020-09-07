@@ -64,3 +64,5 @@ Is Slack the best platform for your community? Maybe - it depends on so many fac
 Also if you think its not possible to build a succesful community on Slack, I suggest you check out our community, [The Community Club](https://www.community.club/). We're nearly 1,500 members, run on Slack, and going strong.
 
 <div class="divider"></div>
+
+Shoutout to [Colin](https://twitter.com/ColinBrauns), [Alex](https://twitter.com/alexjpanagis), [Laima](https://twitter.com/LaimaVai), [Karl](https://twitter.com/karl_mc_carthy) and many others from the Community Club for talking about this subject and inspiring me to write this post!
