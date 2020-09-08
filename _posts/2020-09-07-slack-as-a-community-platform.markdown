@@ -20,7 +20,7 @@ We run the Community Club on Slack, and have no plans to switch off any time soo
 
 **Low barrier to engage.** Depending on your target audience, Slack is likely something many of them are using every day for work, so it's very low effort for them to join and participate. Unlike forums, which require you to be intentional about visiting them and engaging
 
-**Chat is better than forum posts**. This is very depenent on the type of community you're trying to build. The nature of conversation tends to be different than forums. Chat allows for shorter, more casual messaging, while on forums you tend to have to be more intentional (for lack of a better word). 
+**Chat is better than forum posts**. This is very dependent on the type of community you're trying to build. The nature of conversation tends to be different than forums. Chat allows for shorter, more casual messaging, while on forums you tend to have to be more intentional (for lack of a better word). 
 
 ### You can't compare Slack to forums
 
@@ -28,7 +28,7 @@ Slack is not a forum, and forums are not Slack. Slack is chat-based and forums a
 
 One of the big gripes with Slack is the message limit, the fact that (on the free tier at least), you're capped at 10,000 messages before the history starts becoming unsearchable. While most consider it a drawback to Slack, I consider it one if its best features as a community platform. There, I've said the unthinkable.
 
-![Slack message limit](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ef51941a-7191-49b6-a08f-c822676d7876/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200907%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200907T165232Z&X-Amz-Expires=86400&X-Amz-Signature=06db69931da278d8410ebd23129bd500380ac81f7d4f6f3b7f26961c92371afd&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
+![Slack message limit](../images/slack-message-limit.png)
 
 This sort of image is often used to point to one of Slack's biggest weaknesses. You can't search these 155k messages on the free tier, they're 'lost' and it would be better if these messages were on a forum that was searchable. But I'd argue that most of the 155k messages wouldn't even have happened on a forum, because the nature of conversation is completely different.
 
