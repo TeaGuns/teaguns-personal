@@ -43,7 +43,7 @@ Slack is best compared to platforms like Discord, Telegram and WhatsApp, not for
 Slack is *far* from perfect as a community platform. I mean, its not even meant to be one! For certain types of communities, it can be a killer choice, but it certainly isn't for every community. Slack probably isn't a great choice for you if:
 
 - Your audience isn't likely to already be on Slack. In this case you lose the benefit of the lower barrier to entry and participation that other communities get from having their members already be on Slack for work.
-- Your community is large, more than 5k-10k members. While their are examples of successful Slack communities with 20k+ members, Slack really starts to fall apart around the few thousand member mark. You'll eat through the 10,000 message limit too fast, conversation will flow faster than anyone can follow, etc.
+- Your community is large, more than 5k-10k members. While there are examples of successful Slack communities with 20k+ members, Slack really starts to fall apart around the few thousand member mark. You'll eat through the 10,000 message limit too fast, conversation will flow faster than anyone can follow, etc.
 - You absolutely need permanence. If your commuity is being built as a knowledge-sharing or support-community, a forum platform might be better for you. Can you imagine StackOverflow as a chat-based community? Absolutely not. They need the permanence and searchability.
 
 I've seen many companies actually roll with Slack + a forum-based solution to great success. You need to start with your purpose and community goals before deciding on a platform. 
