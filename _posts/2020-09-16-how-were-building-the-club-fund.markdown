@@ -11,7 +11,7 @@ date:   2020-09-16 05:00:00 -0400
 </div>
 </div>
 
-A few weeks ago we announced <a href="https://www.community.club/fund" target="_blank">the Community Club Fund</a> (The Club Fund), an investment fund dedicated to investing in the future of community through community-drive companies, infrastructure and tools. TL;DR of the fund:
+A few weeks ago we announced <a href="https://www.community.club/fund" target="_blank">the Community Club Fund</a> (The Club Fund), an investment fund dedicated to investing in the future of community through community-driven companies, infrastructure and tools. TL;DR of the fund:
 
 - We look for products and tools that will improve how communities are built, grown, and engaged
 - We invest $25k-50k at seed, pre-seed or even earlier. We don't need anyone else to be 'in first', we're happy to be your first check.
