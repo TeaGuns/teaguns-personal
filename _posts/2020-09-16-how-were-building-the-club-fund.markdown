@@ -5,7 +5,10 @@ date:   2020-09-16 05:00:00 -0400
 ---
 
 <div style="display: flex; justify-content: center;">
-<img style="max-width: 180px; height: auto;" src="../images/sticker-fund_1.png"/>
+<div style="width: 180px">
+<img style="width: 100%; height: auto;" src="../images/sticker-fund_1.png"/>
+
+</div>
 </div>
 
 A few weeks ago we announced <a href="https://www.community.club/fund" target="_blank">the Community Club Fund</a> (The Club Fund), an investment fund dedicated to investing in the future of community through community-drive companies, infrastructure and tools. TL;DR of the fund:
