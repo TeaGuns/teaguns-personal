@@ -5,7 +5,7 @@ date:   2020-09-16 05:00:00 -0400
 ---
 
 <div style="display: flex; justify-content: center;">
-<img style="max-width: 180px" src="../images/sticker-fund_1.png"/>
+<img style="max-width: 180px; height: auto;" src="../images/sticker-fund_1.png"/>
 </div>
 
 A few weeks ago we announced <a href="https://www.community.club/fund" target="_blank">the Community Club Fund</a> (The Club Fund), an investment fund dedicated to investing in the future of community through community-drive companies, infrastructure and tools. TL;DR of the fund:
@@ -28,7 +28,9 @@ The Community Council is made up of the LPs and advisors to the fund. They'll be
 
 Venture capital has traditionally been an incredibly opaque industry, but hey, we're not professional investors so we can throw those games right out the window! We're here to help people build great communities, tools, and products, and we're going to do it transparently. This means we'll be sharing our Community Council, our LPs, and our investment memos with the world.
 
-It also means we're sharing companies we come across with other interested investors — we won't be playing those games of hiding deals in order to win them for fear of them being 'stolen' by other investors. We want to make sure founders are working with the right investors for them, and if that isn't us, then that's ok!
+It also means we're sharing companies we come across with other interested investors — we won't be playing those games of hiding deals in order to win them for fear of them being 'stolen' by others. We want to make sure founders are working with the right investors for them, and if that isn't us, then that's ok!
+
+In addition to this, we also aren't playing any games with founders seeking funding. You don't have to find a warm intro to us, or worry about sending a docsend vs an email attachment. Our application process is fully open — <a href="https://www.community.club/fund" target="_blank">apply here!</a>
 
 Interested in being part of our bi-weekly deal flow memo? <a href="mailto:mac@commsor.com">Shoot me an email.</a>
 
