@@ -45,10 +45,6 @@ Each quarter, half of the fund carry (any profits the fund makes) will be grante
 
 We hope the rest of the industry takes this to heart — founders raising funds, you should keep in mind who helped you get your startups to where they are now. Make a commitment to the futures of your team, and give them a chance to be involved in the potentially life changing results of investing.
 
-### Optionality for Founders
-
-SAFE notes have been the standard for early stage investments for quite a while now, but they aren't always what's best for founders. To address this, we're creating a brand new funding instrument and we will be sharing more details about it in the weeks to come.
-
 ### Initial Commitments
 
 We've already committed to a number of great companies which will be included in the first quarter of the fund. 
