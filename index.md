@@ -13,7 +13,7 @@ layout: home
     </div>
       <div class="row">
         <h1>I like making things while drinking excessive amounts of tea. Currently building community at <a href="https://www.commsor.com" class="hover-link" target="_blank">Commsor</a>.</h1>
-        <p>On the side, I also enjoy <a href="/investing" class="hover-link" target="_blank">investing</a> in and supporting other founders.</p>
+        <p>On the side, I also enjoy <a href="/investing" class="hover-link">investing</a> in and supporting other founders.</p>
       </div>
       <div class="row">
         <div class="hide-sm">

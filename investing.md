@@ -15,16 +15,16 @@ layout: page
       <p>When not building my own company, I enjoy actively investing in and supporting other founders. I invest in early stage community companies through the Community Club Fund (🕺), and sometimes support other companies with small, personal angel checks (🍵).</p>
     </div>
     <div class="row">
-      <p>🍵 <a href="https://www.aidaly.co/" class="hover-link">Aidaly</a> </p>
-      <p>🍵 <a href="https://getcabal.com/" class="hover-link">Cabal</a> </p>
-      <p>🕺 <a href="https://www.caravelapp.com/" class="hover-link">Caravel</a> </p>
-      <p>🍵 <a href="https://www.firstbasehq.com/" class="hover-link">Firstbase</a> </p>
-      <p>🕺 <a href="https://islands.xyz/" class="hover-link">Islands</a> </p>
-      <p>🕺 <a href="https://playgroundapp.com/" class="hover-link">Playground</a> </p>
-      <p>🍵 <a href="https://www.thesnackapp.com/" class="hover-link">Snack </a> </p>
-      <p>🕺 <a href="https://startplaying.games/" class="hover-link">Start Playing Games</a> </p>
-      <p>🕺 <a href="https://topia.io/" class="hover-link">Topia</a> </p>
-      <p>🕺 <a href="https://www.toucan.events/" class="hover-link">Toucan</a> </p>
+      <p>🍵 <a href="https://www.aidaly.co/" class="hover-link" target="_blank">Aidaly</a> </p>
+      <p>🍵 <a href="https://getcabal.com/" class="hover-link" target="_blank">Cabal</a> </p>
+      <p>🕺 <a href="https://www.caravelapp.com/" class="hover-link" target="_blank">Caravel</a> </p>
+      <p>🍵 <a href="https://www.firstbasehq.com/" class="hover-link" target="_blank">Firstbase</a> </p>
+      <p>🕺 <a href="https://islands.xyz/" class="hover-link" target="_blank">Islands</a> </p>
+      <p>🕺 <a href="https://playgroundapp.com/" class="hover-link" target="_blank">Playground</a> </p>
+      <p>🍵 <a href="https://www.thesnackapp.com/" class="hover-link" target="_blank">Snack </a> </p>
+      <p>🕺 <a href="https://startplaying.games/" class="hover-link" target="_blank">Start Playing Games</a> </p>
+      <p>🕺 <a href="https://topia.io/" class="hover-link" target="_blank">Topia</a> </p>
+      <p>🕺 <a href="https://www.toucan.events/" class="hover-link" target="_blank">Toucan</a> </p>
     </div>
   </div>
   </section>
