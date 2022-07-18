@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
 
-$brand: #6D7CED;
-$brand-light: #d0d4f5;
+$brand: #000;
+$brand-light: #d9d9d9;
 $light-gray: #BFC3C5;
 $lighter-gray: rgb(232, 236, 238);
 $black: #171C28;
@@ -112,6 +112,11 @@ img {
   }
 }
 
+.sm {
+  margin: 0;
+  font-size: 12px;
+}
+
 #header {
   margin-top: 80px;
 }
@@ -139,6 +144,9 @@ strong {
 .mt-1 {
   margin-top: 5px;
   margin-left: 5px;
+}
+.mt-4 {
+  margin-top: 20px;
 }
 .text-bold {
   font-weight: 700;
@@ -450,6 +458,7 @@ section {
 .hide-sm {
   display: block;
 }
+
 
 #mc_embed_signup { 
   border: none;
