@@ -16,11 +16,11 @@ layout: page
     <div class="row">
       <img src="/images/untitled_hand_02.jpg"/>
       <p class="sm">untitled_hand_02</p>
-      <img class="mt-4" src="/images/valley_001.png"/>
+      <img class="mt-4" src="../images/valley_001.png"/>
       <p class="sm">valley 001</p>
-      <img class="mt-4" src="/images/late_night_one.png"/>
+      <img class="mt-4" src="../images/late_night_one.png"/>
       <p class="sm">laste night one - <a href="https://foundation.app/@AlmostPicasso/foundation/74864" target="_blank">on Foundation</a></p>
-      <img class="mt-4" src="/images/self_portrait.png"/>
+      <img class="mt-4" src="../images/self_portrait.png"/>
       <p class="sm">self portrait</p>
       <img class="mt-4" src="/images/skull_grid.png"/>
       <p class="sm">skull grid - <a href="https://opensea.io/assets/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/25277867913403724030036623619028947089010777439322866337323217883852158533633" target="_blank">on OS</a></p>
